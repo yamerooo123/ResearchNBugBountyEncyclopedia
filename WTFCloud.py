@@ -11,6 +11,10 @@ def search_by_domain(domain_as_input):
     try:
         domain_name = socket.gethostbyname(domain_as_input)
         print(f"the man found {domain_name}")
+        if domain_name.startswith("104."):
+            print('the man can smell dirty CloudFlare')
+        else:
+            return
     except socket.gaierror as error:
         print(f"the man couldn't found what thou seek. Reason: {error}")
 
