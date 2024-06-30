@@ -14,15 +14,21 @@ def TryMultiplePing(network_portion):
     RemoveLastIPportion = network_portion.rsplit('.', 1)[0]
     for n in range(1,255):
         AutoIncrement = f'{RemoveLastIPportion}.{n}'
-        
+        Ping = ping(f'{AutoIncrement}', verbose=False)
+        if Ping.success:
+            print(f"Reachable: {Ping}")
+        else:
+            print(f"Unreachable: {Ping}")
 
 
 
 #usage 
-enter_input = input("Do you want to ping a single IP address or the whole network?: Type 1 or 2")
+enter_input = input("Do you want to ping a single IP address or the whole network?(Type 1 or 2): ")
 if enter_input == "1":
-    network_portion = input("Enter IP network portion: ")
+    network_portion = input("Enter IP address: ")
     TrySinglePing(network_portion)
-elif:
+elif enter_input == "2":
+    network_portion = input("Enter IP network portion: ")
+    TryMultiplePing(network_portion)
 else:
     print("I will just disappear until you call me again.")
