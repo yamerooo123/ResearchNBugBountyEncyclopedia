@@ -1,2 +1,2 @@
-Personal scripts. Feel free to download or modify the code! \n
-WTFCloud isn't complete yet. gotta find a way to bypass CloudFlare. This tool is basically the combination of dnslookup and reverse dns lookup.
+Personal scripts. Feel free to download or modify the code!<br />
+<p><h3>WTFCloud</h3></p> is CloudFlare detection script. It performs DNSlookup and reverse DNSlookup. (currently working on better user-friendly interface and many more!)
