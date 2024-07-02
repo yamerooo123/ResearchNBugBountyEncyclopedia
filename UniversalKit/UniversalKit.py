@@ -5,6 +5,10 @@
 #Feel free to modify the code.
 import socket
 import requests
+import pyfiglet
+
+banner = pyfiglet.figlet_format("UNIVERSALKIT")
+print(banner)
 
 #if you get "socket.gaierror: [Errno 11001] getaddrinfo failed" mean you enter the incorrect host address.
 def search_by_domain(domain_as_input):
@@ -38,7 +42,7 @@ def search_by_ip(ip_input):
         print(f"the man couldn't found what thou seek: reason {error}")
 
 def find_subdomain(domain_as_input):
-    wordlist = open('WTFCloud\subdns.txt', 'r')
+    wordlist = open('UniversalKit\subdns.txt', 'r')
     storing = wordlist.read()
     stored = storing.splitlines()
     print("Find a place to save the result!")
@@ -56,12 +60,15 @@ def find_subdomain(domain_as_input):
         except requests.RequestException:
             continue
 
+#def port_scan(HoI_as_input, port_no):
 
-#usage: just python3 or python WTFCloud.py. 
+
+#usage: just python3 or python UniversalKit.py. 
 host_or_ip_as_input = input("Find Hostname/domain(1) \n"
                             "Find IP address(2) \n"
                             "Find Subdomain(3) \n"
-                            "any button to exit:")
+                            "Port Scanning(4) \n"
+                            "any button to exit: ")
 
 if host_or_ip_as_input == "1":
     try:
@@ -84,6 +91,14 @@ elif host_or_ip_as_input == "3":
         find_subdomain(domain_as_input)
     except socket.herror as error:
         print("the man couldn't find it. Give me the man URL such as google.com, yahoo.com etc")
+    
+elif host_or_ip_as_input == "4":
+    try:
+        HoI_as_input = input("Enter hostname or IP: ")
+        port_no = input("Enter Port number: ")
+        port_scan(HoI_as_input, port_no)
+    except socket.gaierror as error:
+        print(f'the man could not find it. Reason: {error}')
 
 else:
     print("The man will disappear now...")
