@@ -45,7 +45,7 @@ def search_by_ip(ip_input):
         print(f"the man couldn't found what thou seek: reason {error}")
 
 def find_subdomain(domain_as_input):
-    wordlist = open('UniversalKit\subdns.txt', 'r')
+    wordlist = open('UniversalKit\wordlists\subdns.txt', 'r')
     storing = wordlist.read()
     stored = storing.splitlines()
     print("Find a place to save the result!")
@@ -64,9 +64,6 @@ def find_subdomain(domain_as_input):
             continue
 
 def port_scan(HoI_as_input):
-    #port_wordlist = open('UniversalKit\port1000top.txt', 'r')
-    #storing = port_wordlist.read()
-
     storing = '1-10000'
     try:
         scanning = PortScan(HoI_as_input, storing, thread_num=500, show_refused=False, wait_time=3, stop_after_count=True)
