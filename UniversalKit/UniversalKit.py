@@ -6,6 +6,7 @@
 import socket
 import requests
 import pyfiglet
+from portscan import PortScan
 
 banner = pyfiglet.figlet_format("UNIVERSALKIT")
 print(banner)
@@ -60,15 +61,25 @@ def find_subdomain(domain_as_input):
         except requests.RequestException:
             continue
 
-#def port_scan(HoI_as_input, port_no):
+def port_scan(HoI_as_input):
+    port_wordlist = open('UniversalKit\port1000top.txt', 'r')
+    storing = port_wordlist.read()
+    
+    try:
+        scanning = PortScan(HoI_as_input, storing, thread_num=500, show_refused=False, wait_time=3, stop_after_count=True)
+        open_port_discovered = scanning.run()
+        scanning = f"{open_port_discovered}"
+    except ValueError:
+        print(r'Eh! something doesn not feel right')
+
 
 
 #usage: just python3 or python UniversalKit.py. 
-host_or_ip_as_input = input("Find Hostname/domain(1) \n"
-                            "Find IP address(2) \n"
-                            "Find Subdomain(3) \n"
-                            "Port Scanning(4) \n"
-                            "any button to exit: ")
+host_or_ip_as_input = input("(1)Find Hostname/domain \n"
+                            "(2)Find IP address \n"
+                            "(3)Find Subdomain \n"
+                            "(4)Port Scanning \n"
+                            "Enter any button to exit: ")
 
 if host_or_ip_as_input == "1":
     try:
@@ -94,9 +105,8 @@ elif host_or_ip_as_input == "3":
     
 elif host_or_ip_as_input == "4":
     try:
-        HoI_as_input = input("Enter hostname or IP: ")
-        port_no = input("Enter Port number: ")
-        port_scan(HoI_as_input, port_no)
+        HoI_as_input = input("Enter IP: ")
+        port_scan(HoI_as_input)
     except socket.gaierror as error:
         print(f'the man could not find it. Reason: {error}')
 
