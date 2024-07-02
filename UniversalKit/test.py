@@ -1,28 +1,33 @@
 from portscan import *
-import requests
-def port_scan(HoI_as_input):
-    try:
-        with open(r'UniversalKit\port1000top.txt', 'r') as port_wordlist:
-            storing = port_wordlist.read().strip().split(',')
-        
-        # Assuming PortScan class initialization and usage
-        scanning = PortScan(HoI_as_input, storing, thread_num=500, show_refused=False, wait_time=3, stop_after_count=True)
-        open_port_discovered = scanning.run()
-        
-        if open_port_discovered:
-            print(f"Open ports: {open_port_discovered}")
-        else:
-            print("No open ports discovered.")
-        
-    except FileNotFoundError:
-        print("File not found. Please check the file path.")
-    except ValueError as ve:
-        print(f"ValueError: {ve}. Please check the input parameters.")
-    except requests.RequestException as re:
-        print(f"RequestException: {re}. Please check your network and try again.")
-    except Exception as e:
-        print(f"An unexpected error occurred: {str(e)}")
 
+def port_scan(HoI_as_input):
+    # Uncomment and use if you have a port list file
+    # port_wordlist = open('UniversalKit/port1000top.txt', 'r')
+    # storing = port_wordlist.read()
+
+    storing = '1-10000'
+    try:
+        scanning = PortScan(HoI_as_input, storing, thread_num=500, show_refused=False, wait_time=3, stop_after_count=True)
+        discovered_ports = scanning.run()
+        
+    except ValueError:
+        print(r'Eh! something does not feel right')
+
+    answer_me = input("All done! \n"
+                      "Would you like to scan for a specific port? Y/N: ")
+
+    if answer_me == "Y":
+        target_port = input("Enter the specific port number: ")
+        try:
+            scanning = PortScan(HoI_as_input, target_port, thread_num=500, show_refused=False, wait_time=3, stop_after_count=True)
+            discovered_ports = scanning.run()
+            
+        except ValueError:
+            print(r'Eh! something does not feel right')
+    else:
+        print('Bye!')
+
+# Example usage
 if __name__ == "__main__":
     HoI_as_input = input("Enter IP: ")
     port_scan(HoI_as_input)

@@ -17,7 +17,9 @@ def search_by_domain(domain_as_input):
         domain_name = socket.gethostbyname(domain_as_input)
         print(f"the man found {domain_name}")
         if domain_name.startswith("104."):
-            print('the man can smell dirty CloudFlare. No need to try reverse DNSlookup.')
+            print('the man can smell dirty CloudFlare. No need to try a reverse DNSlookup.')
+        elif domain_name.startswith("172."):
+            print('the man can smell dirty CloudFlare. No need to try a reverse DNSlookup.')
         else:
             return
     except socket.gaierror as error:
@@ -62,23 +64,36 @@ def find_subdomain(domain_as_input):
             continue
 
 def port_scan(HoI_as_input):
-    port_wordlist = open('UniversalKit\port1000top.txt', 'r')
-    storing = port_wordlist.read()
-    
+    #port_wordlist = open('UniversalKit\port1000top.txt', 'r')
+    #storing = port_wordlist.read()
+
+    storing = '1-10000'
     try:
         scanning = PortScan(HoI_as_input, storing, thread_num=500, show_refused=False, wait_time=3, stop_after_count=True)
-        open_port_discovered = scanning.run()
-        scanning = f"{open_port_discovered}"
+        discovered_ports = scanning.run()
+        
     except ValueError:
         print(r'Eh! something doesn not feel right')
 
+    answer_me = input("All done! \n"
+                    "Would you like to scan for the specific port? Y/N: ")
 
+    if answer_me == "Y":
+        target_port = input("Give me a port number: ")
+        try:
+            scanning = PortScan(HoI_as_input, target_port, thread_num=500, show_refused=False, wait_time=3, stop_after_count=True)
+            discovered_ports = scanning.run()
+            
+        except ValueError:
+            print(r'Eh! something doesn not feel right')
+    else:
+        print('Bye!')
 
 #usage: just python3 or python UniversalKit.py. 
 host_or_ip_as_input = input("(1)Find Hostname/domain \n"
                             "(2)Find IP address \n"
                             "(3)Find Subdomain \n"
-                            "(4)Port Scanning \n"
+                            "(4)Port Scanner \n"
                             "Enter any button to exit: ")
 
 if host_or_ip_as_input == "1":
