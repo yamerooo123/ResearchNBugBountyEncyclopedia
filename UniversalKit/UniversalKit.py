@@ -11,8 +11,9 @@ from portscan import PortScan
 banner = pyfiglet.figlet_format("UNIVERSALKIT")
 print(banner)
 print('#####################################################################')
-print('                                             PRESENTED BY SUPHAWITH P.')
+print('SELECT OPTION:                               PRESENTED BY SUPHAWITH P.')
 
+#Find IP by domain
 #if you get "socket.gaierror: [Errno 11001] getaddrinfo failed" mean you enter the incorrect host address.
 def search_by_domain(domain_as_input):
     try:
@@ -32,6 +33,7 @@ def search_by_domain(domain_as_input):
 #the function is simply sending GET request to HTTP instead of HTTPS and turning off SSL cert.
 #You may try HEAD request method or use Burp Suite to try to different request methods.
 
+#Find domain by I{}
 def search_by_ip(ip_input):
     #can switch to http or https
     url = requests.get(f'http://{ip_input}', verify=False)
@@ -46,6 +48,7 @@ def search_by_ip(ip_input):
     except socket.herror as error:
         print(f"the man couldn't found what thou seek: reason {error}")
 
+#Find subdomain
 def find_subdomain(domain_as_input):
     wordlist = open('UniversalKit\wordlists\subdns.txt', 'r')
     storing = wordlist.read()
@@ -65,6 +68,7 @@ def find_subdomain(domain_as_input):
         except requests.RequestException:
             continue
 
+#Port Scanner
 def port_scan(HoI_as_input):
     storing = '1-10000'
     try:
@@ -88,58 +92,91 @@ def port_scan(HoI_as_input):
     else:
         print('Bye!')
 
+#API Caller
+#def get_posts(url):
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 #usage: just python3 or python UniversalKit.py. 
-while True:
+options = ('1', '2', '3', '4', '5')
+while True :
     host_or_ip_as_input = input("[1]Find IP by domain \n"
                             "[2]Find domain by IP \n"
                             "[3]Find Subdomain \n"
                             "[4]Port Scanner \n"
+                            "[5]API Caller(unavailable) \n"
                             "Enter any button to exit: ")
-
-    if host_or_ip_as_input == "1":
-        try:
-            domain_as_input = input("thee shall give me a name:")
-            search_by_domain(domain_as_input)
-            askagain = input("Do you want to continue?: Y/N ")
-            if askagain != "Y":
-                print("Okay...")
-                break
-        except socket.herror as error:
-            print("the man couldn't find it. Give me the man URL such as google.com, yahoo.com etc")
+    if host_or_ip_as_input in options :
+        if host_or_ip_as_input == "1":
+            try:
+                domain_as_input = input("thee shall give me a name:")
+                search_by_domain(domain_as_input)
+                askagain = input("Do you want to continue?: Y/N ")
+                if askagain != "Y":
+                    print("Okay...")
+                    break
+            except socket.herror as error:
+                print("the man couldn't find it. Give me the man URL such as google.com, yahoo.com etc")
     
-    elif host_or_ip_as_input == "2":
-        try:
-            ip_input = input("thee shall give me an IP address:")
-            search_by_ip(ip_input)
-            askagain = input("Do you want to continue?: Y/N ")
-            if askagain != "Y":
-                print("Okay...")
-                break
-        except socket.gaierror:
-            print("the man couldn't found what thou seek")
+        elif host_or_ip_as_input == "2":
+            try:
+                ip_input = input("thee shall give me an IP address:")
+                search_by_ip(ip_input)
+                askagain = input("Do you want to continue?: Y/N ")
+                if askagain != "Y":
+                    print("Okay...")
+                    break
+            except socket.gaierror:
+                print("the man couldn't found what thou seek")
 
-    elif host_or_ip_as_input == "3":
-        try:
-            domain_as_input = input("thee shall give me a name:")
-            find_subdomain(domain_as_input)
-            askagain = input("Do you want to continue?: Y/N ")
-            if askagain != "Y":
-                print("Okay...")
-                break
-        except socket.herror as error:
-            print("the man couldn't find it. Give me the man URL such as google.com, yahoo.com etc")
+        elif host_or_ip_as_input == "3":
+            try:
+                domain_as_input = input("thee shall give me a name:")
+                find_subdomain(domain_as_input)
+                askagain = input("Do you want to continue?: Y/N ")
+                if askagain != "Y":
+                    print("Okay...")
+                    break
+            except socket.herror as error:
+                print("the man couldn't find it. Give me the man URL such as google.com, yahoo.com etc")
     
-    elif host_or_ip_as_input == "4":
-        try:
-            HoI_as_input = input("Enter IP: ")
-            port_scan(HoI_as_input)
-            askagain = input("Do you want to continue?: Y/N ")
-            if askagain != "Y":
-                print("Okay...")
-                break
-        except socket.gaierror as error:
-            print(f'the man could not find it. Reason: {error}')
+        elif host_or_ip_as_input == "4":
+            try:
+                HoI_as_input = input("Enter IP: ")
+                port_scan(HoI_as_input)
+                askagain = input("Do you want to continue?: Y/N ")
+                if askagain != "Y":
+                    print("Okay...")
+                    break
+            except socket.gaierror as error:
+                print(f'the man could not find it. Reason: {error}')
+    
+        elif host_or_ip_as_input == "5":
+            try:
+                url = input("Enter URL: ")
+            
+                askagain = input("Do you want to continue?: Y/N ")
+                if askagain != "Y":
+                    print("Okay...")
+                    break
+            except socket.gaierror as error:
+                print(f'the man could not find it. Reason: {error}')
 
+        else:
+            print("The man will disappear now...")
     else:
-        print("The man will disappear now...")
-    
+        print('#####################################################################')
+        print("                              EXIT")
+        print('#####################################################################')
+        break
