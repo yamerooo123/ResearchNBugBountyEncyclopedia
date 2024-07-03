@@ -89,41 +89,47 @@ def port_scan(HoI_as_input):
         print('Bye!')
 
 #usage: just python3 or python UniversalKit.py. 
-host_or_ip_as_input = input("(1)Find Hostname/domain \n"
-                            "(2)Find IP address \n"
+while True:
+    host_or_ip_as_input = input("(1)Find IP by domain \n"
+                            "(2)Find domain by IP \n"
                             "(3)Find Subdomain \n"
                             "(4)Port Scanner \n"
                             "Enter any button to exit: ")
 
-if host_or_ip_as_input == "1":
-    try:
-        domain_as_input = input("thee shall give me a name:")
-        search_by_domain(domain_as_input)
-    except socket.herror as error:
-        print("the man couldn't find it. Give me the man URL such as google.com, yahoo.com etc")
+    if host_or_ip_as_input == "1":
+        try:
+            domain_as_input = input("thee shall give me a name:")
+            search_by_domain(domain_as_input)
+            askagain = input("Do you want to continue?: Y/N ")
+            if askagain != "Y":
+                print("Okay...")
+                break
+        except socket.herror as error:
+            print("the man couldn't find it. Give me the man URL such as google.com, yahoo.com etc")
     
     
-elif host_or_ip_as_input == "2":
-    try:
-        ip_input = input("thee shall give me an IP address:")
-        search_by_ip(ip_input)
-    except socket.gaierror:
-        print("the man couldn't found what thou seek")
+    
+    elif host_or_ip_as_input == "2":
+        try:
+            ip_input = input("thee shall give me an IP address:")
+            search_by_ip(ip_input)
+        except socket.gaierror:
+            print("the man couldn't found what thou seek")
 
-elif host_or_ip_as_input == "3":
-    try:
-        domain_as_input = input("thee shall give me a name:")
-        find_subdomain(domain_as_input)
-    except socket.herror as error:
-        print("the man couldn't find it. Give me the man URL such as google.com, yahoo.com etc")
+    elif host_or_ip_as_input == "3":
+        try:
+            domain_as_input = input("thee shall give me a name:")
+            find_subdomain(domain_as_input)
+        except socket.herror as error:
+            print("the man couldn't find it. Give me the man URL such as google.com, yahoo.com etc")
     
-elif host_or_ip_as_input == "4":
-    try:
-        HoI_as_input = input("Enter IP: ")
-        port_scan(HoI_as_input)
-    except socket.gaierror as error:
-        print(f'the man could not find it. Reason: {error}')
+    elif host_or_ip_as_input == "4":
+        try:
+            HoI_as_input = input("Enter IP: ")
+            port_scan(HoI_as_input)
+        except socket.gaierror as error:
+            print(f'the man could not find it. Reason: {error}')
 
-else:
-    print("The man will disappear now...")
+    else:
+        print("The man will disappear now...")
     
