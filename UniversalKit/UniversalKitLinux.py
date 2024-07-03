@@ -10,7 +10,7 @@ from portscan import PortScan
 
 banner = pyfiglet.figlet_format("UNIVERSALKIT")
 print(banner)
-print('#####################################################################')
+print('----------------------------------------------------------------------')
 print('SELECT OPTION:                               PRESENTED BY SUPHAWITH P.')
 
 #Find IP by domain
@@ -50,7 +50,7 @@ def search_by_ip(ip_input):
 
 #Find subdomain
 def find_subdomain(domain_as_input):
-    wordlist = open('UniversalKit\wordlists\subdns.txt', 'r')
+    wordlist = open(r'wordlists/subdns.txt', 'r')
     storing = wordlist.read()
     stored = storing.splitlines()
     print("Find a place to save the result!")
@@ -80,7 +80,6 @@ def port_scan(HoI_as_input):
 
     answer_me = input("All done! \n"
                     "Would you like to scan for the specific port? Y/N: ")
-
     if answer_me == "Y":
         target_port = input("Give me a port number: ")
         try:
@@ -111,12 +110,14 @@ def port_scan(HoI_as_input):
 #usage: just python3 or python UniversalKit.py. 
 options = ('1', '2', '3', '4', '5')
 while True :
-    host_or_ip_as_input = input("[1]Find IP by domain \n"
+    host_or_ip_as_input = input("---------------------------------------------------------------------- \n"
+                            "[1]Find IP by domain \n"
                             "[2]Find domain by IP \n"
                             "[3]Find Subdomain \n"
                             "[4]Port Scanner \n"
                             "[5]API Caller(unavailable) \n"
-                            "Enter any button to exit: ")
+                            "Enter any button to exit: \n"
+                            )
     if host_or_ip_as_input in options :
         if host_or_ip_as_input == "1":
             try:
