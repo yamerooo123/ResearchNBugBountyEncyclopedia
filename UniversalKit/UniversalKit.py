@@ -90,10 +90,10 @@ def port_scan(HoI_as_input):
 
 #usage: just python3 or python UniversalKit.py. 
 while True:
-    host_or_ip_as_input = input("(1)Find IP by domain \n"
-                            "(2)Find domain by IP \n"
-                            "(3)Find Subdomain \n"
-                            "(4)Port Scanner \n"
+    host_or_ip_as_input = input("[1]Find IP by domain \n"
+                            "[2]Find domain by IP \n"
+                            "[3]Find Subdomain \n"
+                            "[4]Port Scanner \n"
                             "Enter any button to exit: ")
 
     if host_or_ip_as_input == "1":
