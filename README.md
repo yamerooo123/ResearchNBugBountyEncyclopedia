@@ -1,7 +1,7 @@
 Why use other's tools when you can create your own? JK :P<br />
 Personal scripts. Feel free to download or modify the code!<br />
 NOTE: I will continue to develop UniversalKit just give me time to take a nap.(Thai version coming soon)
-<center>![image](https://github.com/yamerooo123/MyBugbountyTools/assets/115742865/b48a1e4e-5b3f-4eb1-9b79-7da11c6cbcf0)</center>
+![image](https://github.com/yamerooo123/MyBugbountyTools/assets/115742865/b48a1e4e-5b3f-4eb1-9b79-7da11c6cbcf0)
 
 
 <h2><b>ALL PROJECT IS UNDER DEVELOPMENT</b></h2>
