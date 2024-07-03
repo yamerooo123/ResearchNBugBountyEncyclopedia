@@ -13,7 +13,7 @@ is a univesal tool for simple automated tasking!(currently working on better use
 2. pip install -r requirements.txt<br />
 3. Enjoy!<br />
 
-<u><h3>Usage</h3></u>
+<u>Usage</u>
 python UniversalKit.py <br />
 
 
