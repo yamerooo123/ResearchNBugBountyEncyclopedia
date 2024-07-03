@@ -107,12 +107,14 @@ while True:
         except socket.herror as error:
             print("the man couldn't find it. Give me the man URL such as google.com, yahoo.com etc")
     
-    
-    
     elif host_or_ip_as_input == "2":
         try:
             ip_input = input("thee shall give me an IP address:")
             search_by_ip(ip_input)
+            askagain = input("Do you want to continue?: Y/N ")
+            if askagain != "Y":
+                print("Okay...")
+                break
         except socket.gaierror:
             print("the man couldn't found what thou seek")
 
@@ -120,6 +122,10 @@ while True:
         try:
             domain_as_input = input("thee shall give me a name:")
             find_subdomain(domain_as_input)
+            askagain = input("Do you want to continue?: Y/N ")
+            if askagain != "Y":
+                print("Okay...")
+                break
         except socket.herror as error:
             print("the man couldn't find it. Give me the man URL such as google.com, yahoo.com etc")
     
@@ -127,6 +133,10 @@ while True:
         try:
             HoI_as_input = input("Enter IP: ")
             port_scan(HoI_as_input)
+            askagain = input("Do you want to continue?: Y/N ")
+            if askagain != "Y":
+                print("Okay...")
+                break
         except socket.gaierror as error:
             print(f'the man could not find it. Reason: {error}')
 
