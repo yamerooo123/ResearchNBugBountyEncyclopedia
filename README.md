@@ -7,7 +7,10 @@ NOTE: I will continue to develop UniversalKit just give me time to take a nap.(T
 
 
 
-<h2><b>ALL PROJECT IS UNDER DEVELOPMENT</b></h2>
+<h2><b>ALL PROJECT IS UNDER DEVELOPMENT</b></h2><br />
+<br />
+Don't expect the script to run fast as it's written in Python not Go. (think I should learn how to code Go)
+<br />
 <u><h3>UniversalKit</h3></u>
 is a univesal tool for simple automated tasking!(currently working on better user-friendly interface and many more!)<br />
 <p><h3>PingSweeper</h3></p> is a tool to find alive hosts across the network portion. Suitable for network pentesting. <b>UNDER DEVELOPMENT</b> Note: will have option to select TCP or ICMP
