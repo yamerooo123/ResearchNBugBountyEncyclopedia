@@ -1,3 +1,6 @@
+<h1>Preparing for CPTS cert. will be back next month</h1>
+
+
 Why use other's tools when you can create your own? JK :P<br />
 Personal scripts. Feel free to download or modify the code!<br />
 NOTE: I will continue to develop UniversalKit just give me time to take a nap.(Thai version coming soon)
