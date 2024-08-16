@@ -1,7 +1,7 @@
 Personal scripts. Feel free to download or modify the code!<br />
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br />
-MY FAVORITE TOOLS FOR BUG BOUNTY!</center><br />
+<center>MY FAVORITE TOOLS FOR BUG BOUNTY!</center><br />
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br />
 
 
