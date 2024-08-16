@@ -1,5 +1,20 @@
-Personal scripts. Feel free to download or modify the code!<br />
-<u><h3><br>FAVORITE TOOLS</h3><br /></u>
+<i>Personal scripts. Feel free to download or modify the code!</i><br />
+<b>FAVORITE TOOLS</b><br />
+<b>Standard tools like Burp Suite, Sqlmap, Nmap, Gobuster, FFUF etc. I won't mention it because these tools i believe we all familiar with them.</b><br />
+| Tool(เครื่องมือ)        | Desc.(คือ)          | URL & Repo(ลิ้งค์repoและURL)  |
+| ------------- |:-------------:| -----:|
+| BBot      | Subdomain enumeration | https://github.com/blacklanternsecurity/bbot |
+| Httpstatus      | Check HTTP status      |   https://httpstatus.io/ | 
+| Shopify free trial | Validate subdomain takeover vuln.      |  https://www.shopify.com/ |
+| Katana | Web crawling      | https://github.com/projectdiscovery/katana |
+| Zenrows | Web scraper API for bypassing WAF      |  https://www.zenrows.com/ |
+| CloakQuest3r | Find real IP behind CloudFlare <br /><b>( Alt is CloudPeler/Crimeflare but for now it isn't working well for me)</b>     |  https://github.com/spyboy-productions/CloakQuest3r |
+| XSStrike | XSS checker      |  https://github.com/s0md3v/XSStrike |
+| LFImap | LFI/Path Traversal      |  https://github.com/hansmach1ne/LFImap |<br />
+
+| Checklist        | Desc.(คือ)          | URL & Repo(ลิ้งค์repoและURL)  |
+| ------------- |:-------------:| -----:|
+| DNS providers      | Check for potential subdomain takeover-able providers      | https://github.com/EdOverflow/can-i-take-over-xyz   | 
 
 
 
@@ -8,11 +23,12 @@ Personal scripts. Feel free to download or modify the code!<br />
 
 
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br />
-+++                                                               +++<br />
-+++               MY FAVORITE MINIPROJECTS!                       +++<br />
-+++                                                               +++<br />
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br />
+
+
+
+
+
+
 <h2><b>ALL PROJECT IS UNDER DEVELOPMENT</b></h2><br />
 <br />
 Don't expect the script to run fast as it's written in Python not Go. (think I should learn how to code Go)
