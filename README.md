@@ -1,10 +1,10 @@
 Personal scripts. Feel free to download or modify the code!<br />
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-+++                                                               +++
-+++               MY FAVORITE TOOLS FOR BUG BOUNTY!               +++
-+++                                                               +++
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br />
++++                                                               +++<br />
++++               MY FAVORITE TOOLS FOR BUG BOUNTY!               +++<br />
++++                                                               +++<br />
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br />
 
 
 
@@ -12,11 +12,11 @@ Personal scripts. Feel free to download or modify the code!<br />
 
 
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-+++                                                               +++
-+++               MY FAVORITE MINIPROJECTS!                       +++
-+++                                                               +++
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br />
++++                                                               +++<br />
++++               MY FAVORITE MINIPROJECTS!                       +++<br />
++++                                                               +++<br />
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br />
 <h2><b>ALL PROJECT IS UNDER DEVELOPMENT</b></h2><br />
 <br />
 Don't expect the script to run fast as it's written in Python not Go. (think I should learn how to code Go)
