@@ -1,5 +1,5 @@
 Personal scripts. Feel free to download or modify the code!<br />
-<h3><br>FAVORITE TOOLS FOR BUG BOUNTY!</h3><br />
+<u><h3><br>FAVORITE TOOLS</h3><br /></u>
 
 
 
