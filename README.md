@@ -1,3 +1,5 @@
+<h1>STUDYING OSCP BE BACK IN A MONTH</h1>
+
 <i>Personal scripts. Feel free to download or modify the code!</i><br />
 <b>FAVORITE TOOLS</b><br />
 <b>Standard tools like Burp Suite, Sqlmap, Nmap, Gobuster, FFUF etc. I won't mention those because these tools i believe we are all familiar with them.</b><br />
@@ -11,6 +13,7 @@
 | CloakQuest3r | Find real IP behind CloudFlare <br /><b>( Alt is CloudPeler/Crimeflare but for now it isn't working well for me)</b>     |  https://github.com/spyboy-productions/CloakQuest3r |
 | XSStrike | XSS checker      |  https://github.com/s0md3v/XSStrike |
 | LFImap | LFI/Path Traversal      |  https://github.com/hansmach1ne/LFImap |<br />
+| Securityheaders | HTTP header checker      |  https://securityheaders.com/ |<br />
 
 | Checklist        | Desc.(คือ)          | URL & Repo(ลิ้งค์repoและURL)  |
 | ------------- |:-------------:| -----:|
