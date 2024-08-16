@@ -1,6 +1,6 @@
 <i>Personal scripts. Feel free to download or modify the code!</i><br />
 <b>FAVORITE TOOLS</b><br />
-<b>Standard tools like Burp Suite, Sqlmap, Nmap, Gobuster, FFUF etc. I won't mention it because these tools i believe we all familiar with them.</b><br />
+<b>Standard tools like Burp Suite, Sqlmap, Nmap, Gobuster, FFUF etc. I won't mention those because these tools i believe we are all familiar with them.</b><br />
 | Tool(เครื่องมือ)        | Desc.(คือ)          | URL & Repo(ลิ้งค์repoและURL)  |
 | ------------- |:-------------:| -----:|
 | BBot      | Subdomain enumeration | https://github.com/blacklanternsecurity/bbot |
