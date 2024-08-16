@@ -1,15 +1,22 @@
-<h1>Preparing for CPTS cert. will be back next month</h1>
-
-
-Why use other's tools when you can create your own? JK :P<br />
 Personal scripts. Feel free to download or modify the code!<br />
-NOTE: I will continue to develop UniversalKit just give me time to take a nap.(Thai version coming soon)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++                                                               +++
++++               MY FAVORITE TOOLS FOR BUG BOUNTY!               +++
++++                                                               +++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-![image](https://github.com/yamerooo123/MyBugbountyTools/assets/115742865/de8c8b05-8ea1-434b-8556-6fd030bb2c18)
 
 
 
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++                                                               +++
++++               MY FAVORITE MINIPROJECTS!                       +++
++++                                                               +++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 <h2><b>ALL PROJECT IS UNDER DEVELOPMENT</b></h2><br />
 <br />
 Don't expect the script to run fast as it's written in Python not Go. (think I should learn how to code Go)
