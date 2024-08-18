@@ -13,6 +13,8 @@
 | CloakQuest3r | Find real IP behind CloudFlare <br /><b>( Alt is CloudPeler/Crimeflare but for now it isn't working well for me)</b>     |  https://github.com/spyboy-productions/CloakQuest3r |
 | XSStrike | XSS checker      |  https://github.com/s0md3v/XSStrike |
 | LFImap | LFI/Path Traversal      |  https://github.com/hansmach1ne/LFImap |<br />
+| JWT Beautifier  | Read JWT tokens in plain text      |  https://jwt.io/ |<br />
+| JWT_tool | JWT token cracker     |  https://github.com/ticarpi/jwt_tool |<br />
 | Securityheaders | HTTP header checker      |  https://securityheaders.com/ |<br />
 
 | Checklist        | Desc.(คือ)          | URL & Repo(ลิ้งค์repoและURL)  |
