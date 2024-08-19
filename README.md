@@ -15,6 +15,7 @@
 | LFImap | LFI/Path Traversal      |  https://github.com/hansmach1ne/LFImap |<br />
 | JWT Beautifier  | Read JWT tokens in plain text      |  https://jwt.io/ |<br />
 | JWT_tool | JWT token cracker     |  https://github.com/ticarpi/jwt_tool |<br />
+| Ghuari | Sql injection alternative  |  https://github.com/r0oth3x49/ghauri |<br />
 
 | Checklist        | Desc.(คือ)          | URL & Repo(ลิ้งค์repoและURL)  |
 | ------------- |:-------------:| -----:|
