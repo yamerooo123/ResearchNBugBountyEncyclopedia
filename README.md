@@ -17,6 +17,11 @@
 | JWT_tool | JWT token cracker     |  https://github.com/ticarpi/jwt_tool |<br />
 | Ghauri | Sql injection alternative  |  https://github.com/r0oth3x49/ghauri |<br />
 | ParamSpider | URL parameter fuzzing  |  https://github.com/devanshbatham/ParamSpider |<br />
+| SubSnipe | Automated subdomain takeover checker  |https://github.com/dub-flow/subsnipe |<br />
+
+
+
+
 
 
 | Checklist        | Desc.(คือ)          | URL & Repo(ลิ้งค์repoและURL)  |
