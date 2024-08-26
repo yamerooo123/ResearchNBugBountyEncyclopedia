@@ -6,6 +6,10 @@ Manage job listings from the WordPress admin panel, and allow users to post jobs
 
 Sourcecode: https://github.com/Automattic/WP-Job-Manager/releases/tag/2.4.0
 
+**Findings**
+
+1. **The_company_video** function may need to implement URL sanitization. The URL input doesn't validate URLs. This causes the attacker to add malicious files in the link instead of video files. If the administrator accidentally click on the link, it could  trigger XSS vulnerability and lead to additional security issues.
+
 **Details**
 
 The plugin function sourcecode can be found in **wp-job-manager-functions.php**
@@ -45,6 +49,8 @@ However, since esc_sql() doesn't considered % as escaping characters, the attack
 - The plugin implemented **wp_oembed_get()**, the function allows WordPress to fetch embedded HTML in **the_company_video** function which the attacker could use this to trigger XSS or force a connection in the external link.
 
 ![image](https://github.com/user-attachments/assets/f70d3a0f-4f76-4a47-a83f-4f5cab4d3ebe)
+
+- The plugin 
 
   
  
