@@ -37,6 +37,14 @@ However, since esc_sql() doesn't considered % as escaping characters, the attack
 
 ![image](https://github.com/user-attachments/assets/a4c38111-a61e-4895-bed3-80bfb229efc8)
 
+- The file upload function **job_manager_prepare_uploaded_files** checks MIME type using **wp_check_filetype**. This means it can be bypass by manipulating **Content-Type** in the request using Burp Suite.
+
+![image](https://github.com/user-attachments/assets/0f142dd2-7ef8-4b25-9cca-6ea2f5d420ac)
+
+
+Normally the image couldn't be executed. Plus, there is **wp_check_filetype** which checks the file extension.
+
+![image](https://github.com/user-attachments/assets/b49ec8a0-b33e-49f1-831d-6fc42ae8bde2)
 
 
 
