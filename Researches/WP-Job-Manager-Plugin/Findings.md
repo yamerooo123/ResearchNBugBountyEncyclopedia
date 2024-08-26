@@ -50,7 +50,8 @@ However, since esc_sql() doesn't considered % as escaping characters, the attack
 
 ![image](https://github.com/user-attachments/assets/f70d3a0f-4f76-4a47-a83f-4f5cab4d3ebe)
 
-- The plugin 
+![image](https://github.com/user-attachments/assets/2eae8a5b-10e2-4f5f-87eb-e271a0815a37)
+
 
   
  
