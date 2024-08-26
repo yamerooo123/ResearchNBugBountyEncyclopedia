@@ -42,7 +42,7 @@ However, since esc_sql() doesn't considered % as escaping characters, the attack
 ![image](https://github.com/user-attachments/assets/2191fd63-ad57-4522-98f1-c03d085e9ed4)
 ![image](https://github.com/user-attachments/assets/e5fa866c-6674-4e0a-b8f8-3e54580a795d)
 
-- The plugin implemented **wp_oembed_get()**, the function allows WordPress to fetch embedded HTML in **the_company_video** function which the attacker could use this to trigger XSS or force a connection from external link.
+- The plugin implemented **wp_oembed_get()**, the function allows WordPress to fetch embedded HTML in **the_company_video** function which the attacker could use this to trigger XSS or force a connection in the external link.
 
 ![image](https://github.com/user-attachments/assets/f70d3a0f-4f76-4a47-a83f-4f5cab4d3ebe)
 
