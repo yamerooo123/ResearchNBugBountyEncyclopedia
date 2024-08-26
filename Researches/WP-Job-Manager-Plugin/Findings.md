@@ -47,6 +47,6 @@ Normally the image couldn't be executed. Plus, there is **wp_check_filetype** wh
 ![image](https://github.com/user-attachments/assets/b49ec8a0-b33e-49f1-831d-6fc42ae8bde2)
 
 
-
+-------------------------------------------------------------WILL BE MORE DETAIL AFTER I GOT MY CVE PUBLISH------------------------------------------------------------------
   
  
