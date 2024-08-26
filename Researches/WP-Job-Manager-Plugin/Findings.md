@@ -46,6 +46,11 @@ Normally the image couldn't be executed. Plus, there is **wp_check_filetype** wh
 
 ![image](https://github.com/user-attachments/assets/b49ec8a0-b33e-49f1-831d-6fc42ae8bde2)
 
+- The plugin implemented **wp_oembed_get()**, the function allows WordPress to fetch embedded HTML in **the_company_video** function which the attacker could use this to trigger XSS or force a connection from external link.
+
+![image](https://github.com/user-attachments/assets/f70d3a0f-4f76-4a47-a83f-4f5cab4d3ebe)
+
+
 
 -------------------------------------------------------------WILL BE MORE DETAIL AFTER I GOT MY CVE PUBLISH------------------------------------------------------------------
   
