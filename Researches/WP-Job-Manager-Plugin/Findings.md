@@ -37,21 +37,14 @@ However, since esc_sql() doesn't considered % as escaping characters, the attack
 
 ![image](https://github.com/user-attachments/assets/a4c38111-a61e-4895-bed3-80bfb229efc8)
 
-- The file upload function **job_manager_prepare_uploaded_files** checks MIME type using **wp_check_filetype**. This means it can be bypass by manipulating **Content-Type** in the request using Burp Suite.
+- The file upload function **job_manager_prepare_uploaded_files** checks MIME type using **wp_check_filetype**. This means it can be bypass by manipulating **Content-Type** in the request using Burp Suite. Howver, the plugin has allowed-MIME type list which will be compare again with WordPress function, this makes it impossible to upload other file variations. There is also data sanitization mechanism that detecting double extensions. For example **test.php.jpg**., upon detecting will be changed to **test.php_.jpg**. 
 
-![image](https://github.com/user-attachments/assets/0f142dd2-7ef8-4b25-9cca-6ea2f5d420ac)
-
-
-Normally the image couldn't be executed. Plus, there is **wp_check_filetype** which checks the file extension.
-
-![image](https://github.com/user-attachments/assets/b49ec8a0-b33e-49f1-831d-6fc42ae8bde2)
+![image](https://github.com/user-attachments/assets/2191fd63-ad57-4522-98f1-c03d085e9ed4)
+![image](https://github.com/user-attachments/assets/e5fa866c-6674-4e0a-b8f8-3e54580a795d)
 
 - The plugin implemented **wp_oembed_get()**, the function allows WordPress to fetch embedded HTML in **the_company_video** function which the attacker could use this to trigger XSS or force a connection from external link.
 
 ![image](https://github.com/user-attachments/assets/f70d3a0f-4f76-4a47-a83f-4f5cab4d3ebe)
 
-
-
--------------------------------------------------------------WILL BE MORE DETAIL AFTER I GOT MY CVE PUBLISH------------------------------------------------------------------
   
  
