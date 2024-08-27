@@ -50,13 +50,7 @@ However, since esc_sql() doesn't considered % as escaping characters, the attack
 
 ![image](https://github.com/user-attachments/assets/edbfb7d5-eba3-4e67-a08e-2b1d2005fede)
 
-![image](https://github.com/user-attachments/assets/b508932d-b60e-4801-909d-3c3278d30ace)
-
-![image](https://github.com/user-attachments/assets/2e8ca44a-1b98-4a22-a2f4-c878244263b6)
-
-![image](https://github.com/user-attachments/assets/89d9bf80-f3bc-434b-bb0b-9f0e4b79b669)
-
-![image](https://github.com/user-attachments/assets/be5b8e8a-32dc-4fc4-96c5-2f55fabc5b41)
+![image](https://github.com/user-attachments/assets/ae11a8e1-f671-4722-993d-e5dec4e58801)
 
 
 
