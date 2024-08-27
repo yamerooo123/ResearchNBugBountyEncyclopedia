@@ -8,7 +8,7 @@ Sourcecode: https://github.com/Automattic/WP-Job-Manager/releases/tag/2.4.0
 
 **Findings**
 
-1. **The_company_video** function may need to implement URL sanitization. The URL input doesn't validate URLs. This causes the attacker to add malicious files in the link instead of video files. If the administrator accidentally click on the link, it could  trigger XSS vulnerability and lead to additional security issues.
+1. **The_company_video** function may need to implement URL sanitization. The URL input doesn't validate URLs. This causes the attacker to be able to add XSS PDF files in the link instead of video files. If users accidentally click on the link, it could  trigger XSS vulnerability and lead to additional security issues such as social engineering, credential stealing, etc.
 
 **Details**
 
