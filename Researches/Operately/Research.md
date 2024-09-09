@@ -1,6 +1,6 @@
 Researched by: Suphawith Phusanbai (Security Researcher)
 
-**Operately**
+**Operately v0.1.0**
 
 Every startup needs to align on goals, run projects, track KPIs, and standardize processes. However, figuring out the right systems that tie everything together is tough, and keeping them in order, even tougher.
 
