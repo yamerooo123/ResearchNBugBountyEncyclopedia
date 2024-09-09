@@ -1,4 +1,4 @@
-<h1>STUDYING OSCP BE BACK IN A MONTH(Prolly updating from time to time if i am boring with OSCP labs)</h1>
+<h1>STUDYING OSCP BE BACK IN A MONTH(I might update a little bit when i am bored with OSCP labs)</h1>
 
 <i>My journal as a security researcher!</i><br />
 <b>FAVORITE TOOLS</b><br />
