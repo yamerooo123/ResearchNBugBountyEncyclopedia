@@ -18,7 +18,7 @@ Impact: Denial of service and resource exhaustion
 
 **Updated on Sep 10**
 
--Operately doesn't utilize traditional javascript tag. The javascript resource is being called through **/assets/app-741d8c0f04754f324e315d53e4ff3083.js**
+-Operately uses API to call for CSS resources. The javascript resource is being called through **/assets/app-741d8c0f04754f324e315d53e4ff3083.js**
 
 -In appearance tab, when trying to change the theme, the application sends API request which is **/api/v2/update_profile** along with following data **id** and **theme** requried in JSON. The theme parameter has 3 options: **light**, **dark** and **system**. If the value inside theme parameter isn't one of them, the app won't render the correct color. resulting in white default background.
 -The **id** is string with some kind of token after the username (For some reason, the token didn't change after re-login)
