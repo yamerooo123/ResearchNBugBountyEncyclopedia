@@ -11,6 +11,7 @@ This project is in alpha and may experience significant changes.
 **Finding**
 
 -No rate limiting(reported) 
+-Unrestricted file upload
 
 Impact: Denial of service and resource exhaustion
 
