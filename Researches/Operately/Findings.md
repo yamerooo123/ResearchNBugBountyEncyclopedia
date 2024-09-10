@@ -10,7 +10,9 @@ This project is in alpha and may experience significant changes.
 
 **Finding**
 
--No rate limiting(reported)
+-No rate limiting(reported) 
+
+Impact: Denial of service and resource exhaustion
 
 **Details**
 
@@ -24,6 +26,15 @@ This project is in alpha and may experience significant changes.
 
 -The unique identifier or token can be found at http://localhost/whitehathacker-0bgk/people/ after intercepting the request. Every times the earlier URL request is being used, the **/api/v2/get_person** resource will be used. This API request reveals the real value of ID.
 
+-The **/api/v2/add_company** POST request has no privilege implemented. Any users can create their own channels. This means an attacker abuse this flaw to trigger resource exhaustion or denial of service.
+![image](https://github.com/user-attachments/assets/c7c85093-a6dd-4c0c-9180-39657e5e6120)
+
+**Testing scenario(Authenticated user):**
+![image](https://github.com/user-attachments/assets/b7c5bd75-85f3-44c3-9789-e384f34c163e)
+
+**Mitigation:**
+
+The application should utilize administrative privilege for application administrator to perform the task to mitigate the risk.
 
 
 
