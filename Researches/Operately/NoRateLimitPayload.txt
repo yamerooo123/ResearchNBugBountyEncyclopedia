@@ -1,0 +1,21 @@
+POST /api/v2/add_company HTTP/1.1
+Host: 127.0.0.1
+Content-Length: 41
+sec-ch-ua: "Chromium";v="127", "Not)A;Brand";v="99"
+x-company-id: acme-0bbb
+Accept-Language: en-US
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.100 Safari/537.36
+Content-Type: application/json
+Accept: application/json, text/plain, */*
+sec-ch-ua-platform: "Windows"
+Origin: http://127.0.0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1/new
+Accept-Encoding: gzip, deflate, br
+Cookie: csrftoken=RhDr7FW6TVbg7MTlg6vWCtnStEylAKpg; sessionid=6os0mx4ixh3ccefypb0con5rbpbgs0y1; _operately_key=SFMyNTY.g3QAAAADbQAAAAtfY3NyZl90b2tlbm0AAAAYOGNkdkZLWVJKS2pqR05DRUlpbmpaTmJ0bQAAAA1hY2NvdW50X3Rva2VubQAAACBQ3gJutx6Jftqv9XMDRKot2lNN7pg7DbITHQnW7QZltW0AAAAObGl2ZV9zb2NrZXRfaWRtAAAAPmFjY291bnRzX3Nlc3Npb25zOlVONENicmNlaVg3YXJfVnpBMFNxTGRwVFRlNllPdzJ5RXgwSjF1MEdaYlU9.yDv4THL8z4pmxcWpMGW_z1L3s3wHKYExtHgq62PeLpo
+Connection: keep-alive
+
+{"company_name":"BRRRRR","title":"§123§"}
