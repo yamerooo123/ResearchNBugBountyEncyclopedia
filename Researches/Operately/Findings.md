@@ -10,7 +10,7 @@ This project is in alpha and may experience significant changes.
 
 **Finding**
 
--No rate limiting 
+-No rate limiting(reported)
 
 **Details**
 
