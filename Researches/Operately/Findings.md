@@ -34,7 +34,7 @@ Impact: Denial of service and resource exhaustion
 
 **Mitigation:**
 
-The application should utilize administrative privilege for application administrator to perform the task to mitigate the risk.
+The application should create application administrator role to manage all channels to mitigate the risk.
 
 
 
