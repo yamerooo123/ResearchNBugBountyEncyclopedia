@@ -12,7 +12,7 @@ This project is in alpha and may experience significant changes.
 
 -No rate limiting(reported) 
 
--Remote Code Execution(RCE) through unrestricted file upload in Discussion
+-Remote Code Execution(RCE) through unrestricted file upload in Discussion(reported)
 
 **Impact: Remote Command Execution, Denial of service and resource exhaustion**
 
