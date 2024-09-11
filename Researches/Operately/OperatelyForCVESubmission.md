@@ -4,7 +4,7 @@ CVE Submitted:
 
 **Product: Operately v0.1.0**
 
-Open-source Project Repo: https://github.com/operately/operately
+Open-source application repository: https://github.com/operately/operately
 
 **Finding:**
 
