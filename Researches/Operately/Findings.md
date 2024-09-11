@@ -47,6 +47,10 @@ The application should create application administrator role to manage all chann
 **Testing scenario(Privileged user)**
 ![image](https://github.com/user-attachments/assets/c3e40e90-2099-4763-8d0a-00bfe9cb4bb8)
 
+**Mitigation:**
+
+Preliminarily, the function should validate Content type and file extensions by implementing the whitelist to ensure only safe file extensions are allowed to be uploaded.
+
 
 
 
