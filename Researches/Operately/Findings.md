@@ -12,9 +12,9 @@ This project is in alpha and may experience significant changes.
 
 -No rate limiting(reported) 
 
--Remote Code Execution(RCE) through unrestricted file upload in discussion
+-Remote Code Execution(RCE) through unrestricted file upload in Discussion
 
-Impact: Denial of service and resource exhaustion
+**Impact: Remote Command Execution, Denial of service and resource exhaustion**
 
 **Details**
 
@@ -41,6 +41,9 @@ The application should create application administrator role to manage all chann
 
 -The application doesn't validate file extension. It allows any types to be uploaded. 
 ![image](https://github.com/user-attachments/assets/85ad4e27-76c2-43d9-81a4-edabc64c2480)
+
+**Testing scenario(Privileged user)**
+![image](https://github.com/user-attachments/assets/c3e40e90-2099-4763-8d0a-00bfe9cb4bb8)
 
 
 
