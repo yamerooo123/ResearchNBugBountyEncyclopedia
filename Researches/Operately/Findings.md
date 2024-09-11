@@ -1,4 +1,4 @@
-Researched by: Suphawith Phusanbai (Security Researcher)
+Researched by: Suphawith Phusanbai (Security Researcher)(CVE submitted)
 
 **Operately v0.1.0-alpha**
 
