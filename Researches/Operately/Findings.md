@@ -8,6 +8,8 @@ That’s why we’re building Operately: to give startups and SMBs the tools to 
 
 This project is in alpha and may experience significant changes.
 
+Open-source project repo: https://github.com/operately/operately
+
 **Finding**
 
 -No rate limiting(reported) 
