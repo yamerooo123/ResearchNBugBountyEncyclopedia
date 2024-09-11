@@ -11,6 +11,7 @@ This project is in alpha and may experience significant changes.
 **Finding**
 
 -No rate limiting(reported) 
+
 -Unrestricted file upload
 
 Impact: Denial of service and resource exhaustion
@@ -37,6 +38,9 @@ Impact: Denial of service and resource exhaustion
 
 The application should create application administrator role to manage all channels to mitigate the risk.
 
+
+-The application doesn't validate file extension. It allows any types to be uploaded. 
+![image](https://github.com/user-attachments/assets/85ad4e27-76c2-43d9-81a4-edabc64c2480)
 
 
 
