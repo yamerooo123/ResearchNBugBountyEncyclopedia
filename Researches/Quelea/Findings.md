@@ -8,7 +8,19 @@ link: https://github.com/quelea-projection/Quelea
 
 **Finding**
 
+Default Password: quelea
+
+![image](https://github.com/user-attachments/assets/c9bea1bd-997e-4663-b1fb-08aeb0425cea)
+
+
+**Technology stack:**
+
+-OpenJDK 
+
+-Log4J v. 2.21.1 
+
 **Details**
+
 
 1. When saves file as Schedule, the file extension will be converted to **.qsch** (Quelea Schedule). 
 
@@ -23,6 +35,19 @@ Upon inspecting the file type, it shows that the file is ZIP file containing "**
 The information in .XML contains Schedule configuration in "schedule" tag.
 
 ![image](https://github.com/user-attachments/assets/e46920be-911a-47d2-b928-badaf7ed9c80)
+
+The below table shows how Quelea stored each file in XML
+
+| File   | Format tag          |
+|--------------|-------------|
+| PowerPoint      | filepresentation    |
+| Website link       | url    |
+| Video       | filevideo    |
+| Timer       | timer    |
+| Timer title       | name    |
+| Duration       | Time    |
+| PDF       | filepdf    |
+| Image       | fileimage   |
 
 2. The following function is used to save file as **.qsch** using **import org.quelea.services.utils.QueleaProperties;**
 
@@ -50,5 +75,10 @@ The information in .XML contains Schedule configuration in "schedule" tag.
 
 ![image](https://github.com/user-attachments/assets/91d3c716-c764-4d9f-ba19-0a4c2cdcff84)
 
+**Note: Media files are specified in absolute path. This means that if it couldn't retrieve files that specified in the path, it won't return the file and display error window**  
+
+![image](https://github.com/user-attachments/assets/80a5c20a-9de5-4bab-b411-b60360913fda)
+
+![image](https://github.com/user-attachments/assets/87132ec4-e081-4f39-b0a4-b6756e7863d1)
 
 
