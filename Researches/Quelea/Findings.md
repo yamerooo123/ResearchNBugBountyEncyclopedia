@@ -4,7 +4,7 @@
 
 Open source projection software for churches.
 
-link: https://github.com/quelea-projection/Quelea
+Link: https://github.com/quelea-projection/Quelea
 
 **Finding**
 
