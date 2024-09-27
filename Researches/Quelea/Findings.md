@@ -1,10 +1,14 @@
-<h1>QUELEA</h1>
+Researched by: Suphawith Phusanbai (Security Researcher)
+
+<h1>QUELEA 2024.0</h1>
 
 <h3>About</h3>
 
 Open source projection software for churches.
 
 Link: https://github.com/quelea-projection/Quelea
+
+Tested on: Windows 11 23H2 22631.4169
 
 **Finding**
 
