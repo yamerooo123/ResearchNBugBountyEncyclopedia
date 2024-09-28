@@ -1,5 +1,3 @@
-**Researched by: Suphawith Phusanbai (Security Researcher)**
-
 CVE Submitted: 
 
 **Product: Operately v0.1.0**
@@ -16,7 +14,8 @@ Remote Command Execution
 
 **Details:**
 
-The file upload function in the Discussions tab allows privileged users to upload files without validating file extensions or content types. This unrestricted file upload capability can lead to Remote Code Execution if malicious files are uploaded and subsequently executed.
+The file upload function in the Discussions tab allows privileged users to upload files without validating file extensions or content types. Users who download and execute the malicious attached
+file in the Discussion tab will send the connection back to an attacker machine, leading to the compromise of the machine
 
 Unrestricted File Upload: The application does not restrict file types or extensions, allowing any files to be uploaded. This poses a risk if an attacker uploads a file that contains malicious code.
 
