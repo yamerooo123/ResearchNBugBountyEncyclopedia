@@ -1,4 +1,4 @@
-**Watcharr**
+**Watcharr V.1.43.0**
 
 Open source, self-hostable watched list for all your content (movies, tv series, anime, games) with user authentication, modern and clean UI and a very simple setup.
 
@@ -7,6 +7,7 @@ Repository: https://github.com/sbondCo/Watcharr
 **Findings**
 
 1. Login Page : User enumeration
+2. Account takover : Insufficient Session Expiration
 
 **Bugs**
 
@@ -22,14 +23,41 @@ Repository: https://github.com/sbondCo/Watcharr
 ```
 /api/auth/
 ```
+-Change password: validate with token
+```
+/api/auth/change_password
+```
+-Change notifications: privateThoughts or private or automateShowStatuses or includePreviouslyWatched
+```
+/api/user/update
+```
+-Get User profile
+```
+/api/profile
+```
+
+
 
 
 
 **Details:**
 
+API technology = JWT 
+
 Default database = SQLite3
 
 ![image](https://github.com/user-attachments/assets/65cde707-938a-4634-8a00-e57b74c00072)
+
+**JWT Testing(Vulnerable)**
+
+The web app doesn't utilize JWT session. This allows attackers to reuses token to change password.
+
+![image](https://github.com/user-attachments/assets/79bd7932-7004-4bca-bf36-cdc97a82da1a)
+
+![image](https://github.com/user-attachments/assets/c1120f0d-1926-4be4-8c1e-04a70d3ff59a)
+
+
+
 
 
 In login page, the authenthication mechanism can be abuse to enumerate valid usernames.
