@@ -8,6 +8,7 @@ Repository: https://github.com/sbondCo/Watcharr
 
 1. Login Page : User enumeration
 2. Account takover : Insufficient Session Expiration
+3. Lack of CSRF in Change password 
 
 **Bugs**
 
