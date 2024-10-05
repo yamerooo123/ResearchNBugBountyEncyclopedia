@@ -8,7 +8,7 @@ Repository: https://github.com/sbondCo/Watcharr
 
 1. Login Page : User enumeration
 2. Account takover : Insufficient Session Expiration
-3. Lack of CSRF in Change password 
+3. Privilege escalation through crafted JWT token
 
 **Bugs**
 
@@ -36,6 +36,10 @@ Repository: https://github.com/sbondCo/Watcharr
 ```
 /api/profile
 ```
+-Follow users & Unfollow users = POST and DELETE
+```
+/api/follow/<ID>
+```
 
 
 
@@ -57,7 +61,25 @@ The web app doesn't utilize JWT session. This allows attackers to reuses token t
 
 ![image](https://github.com/user-attachments/assets/c1120f0d-1926-4be4-8c1e-04a70d3ff59a)
 
+**JWT token doesn't have secret key**
 
+![image](https://github.com/user-attachments/assets/64c7e775-82cf-4a6b-88ac-00616daa2222)
+
+
+**Testing with blank password** 
+
+![image](https://github.com/user-attachments/assets/cf7cfbab-d8cb-4439-a87a-997da21e76e3)
+
+**Use crafted JWT token to verify usability**
+
+![image](https://github.com/user-attachments/assets/8cc1e396-e31b-44c1-a308-e286e8e511b9)
+
+Exploited!
+
+![image](https://github.com/user-attachments/assets/737f551f-50b6-4673-8315-7ca05af3c789)
+
+
+**Testing on different functions**
 
 
 
