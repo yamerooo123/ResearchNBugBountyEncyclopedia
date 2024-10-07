@@ -1,34 +1,3 @@
-**Problem: JWT token allows a blank password to verify a signature.**
+/DATA allows read but not write privileges
 
-**Note:**
-
-Developers forced the web app to use JWT_SECRET in Watcharr.json. Theoretically, it should work. But the problem still persists.
-
-![image](https://github.com/user-attachments/assets/f425dc9c-b084-4f97-88a9-21d92acd5050)
-
-
-**Analysis**
-
--JWT JSON Data Construction
-
-![image](https://github.com/user-attachments/assets/08890eb7-d562-4dcb-b32e-dfb89975f1de)
-
-**jwt.RegisteredClaims** = For customed types. It performs standard verification.
-
-Checking for **Authorization** in the request. This **Authorization** is used for storing JWT token
-![image](https://github.com/user-attachments/assets/279c9a5e-2414-4a9f-ae72-411783709be1)
-
-**Conditions:**
-
-1. If Authorization(token) is missing, return HTTP error 401. &check;
-
-2. Parse the token
-
-3. In line 210th, **return []byte(Config.JWT_SECRET), nil**. This **Config** is **ServerConfig** which read config from **/data** where **Watcharr.json** is being stored. The sourcecode is **Config.go**.
-   
-4. To prevent error, the system implments nil to check for valid types. If not send HTTP reponse code 4001
-
-**Observation**
-
-My assumption is the system doesn't validate Config properly which resulting in a blank password can be used for validating a signature. There is something wrong with Config.go or the logic for reading config function.
-
+the folder is designed to be accessed only to high privileged users (sudo privilege) as it containing sensitive data which is why when JWT try to read JWT_SECRET, it couldn't retrieve because it lacks the privilege. This vulnerability has to do with Design Flaw.
