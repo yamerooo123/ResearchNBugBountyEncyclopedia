@@ -26,3 +26,9 @@ Checking for **Authorization** in the request. This **Authorization** is used fo
 
 3. In line 210th, **return []byte(Config.JWT_SECRET), nil**. This **Config** is **ServerConfig** which read config from **/data** where **Watcharr.json** is being stored. The sourcecode is **Config.go**.
    
+4. To prevent error, the system implments nil to check for valid types. If not send HTTP reponse code 4001
+
+**Observation**
+
+My assumption is the system doesn't validate Config properly which resulting in a blank password can be used for validating a signature. There is something wrong with Config.go or the logic for reading config function.
+
