@@ -9,3 +9,15 @@ An open source web application for railway infrastructure design, capacity analy
 
 **Details**
 
+Techonolgy Stack:
+
+-Database: 
+
+**PostgreSQL** (Default password: **password**)
+
+**Valkey** (As a primary database)
+
+-Message Broker: is a software that allows different softwares to communicate to each others 
+
+**RabbitMQ** (Default credentials: **osrd:password** )
+
