@@ -4,6 +4,15 @@
 <h1>About Me: Want to know who i am?</h1>
 <p>I do bug bounties from time to time. I study many pentesting certs just because those look cool and I need OSCP to apply for a job. My hobby is researching on open-source projects and sometimes work on Linux binary project. When i look at source code, at first i feel like i know everything but to be honest with you my head keeps saying ERROR 404</p>
 
+<h1>LIFE GOAL</h1>
+
+1. Found 100 CVE ( 1/100 )
+  
+2. OSEE holder
+
+3. Found Windows or any Linux distro OS kernel exploitation
+
+
 <i>My journal as a security researcher!</i><br />
 <b>FAVORITE TOOLS</b><br />
 <b>Standard tools like Burp Suite, Sqlmap, Nmap, Gobuster, FFUF etc. I won't mention those because these tools i believe we are all familiar with them.</b><br />
