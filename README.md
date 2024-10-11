@@ -6,6 +6,8 @@
 
 <h1>LIFE GOALS</h1>
 
+**Life without purpose is too boring!**
+
 1. Found 100 CVE ( 1/100 )
   
 2. OSEE holder
