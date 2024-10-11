@@ -8,7 +8,7 @@
 
 :file_folder:: [CLICK HERE](https://github.com/yamerooo123/CVE/tree/main)
 
-<h1>LIFE GOALS</h1>
+<h1>Life Goals</h1>
 
 **Life without purpose is too boring!**
 
@@ -20,7 +20,7 @@
 
 
 <i>My journal as a security researcher!</i><br />
-<b>FAVORITE TOOLS</b><br />
+<b><h1>Favorite tools</h1></b><br />
 <b>Standard tools like Burp Suite, Sqlmap, Nmap, Gobuster, FFUF etc. I won't mention those because these tools i believe we are all familiar with them.</b><br />
 | Tool(เครื่องมือ)        | Desc.(คือ)          | URL & Repo(ลิ้งค์repoและURL)  |
 | ------------- |:-------------:| -----:|
