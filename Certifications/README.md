@@ -1,1 +1,1 @@
-**To me, these certs are my achievements and trophies.**
+**To me, these penetration testing certs are my treasures and trophies.**
