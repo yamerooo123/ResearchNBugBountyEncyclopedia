@@ -20,7 +20,18 @@ The Open Source Learning Management System for Companies. An alternative to Thin
 
 -TailWindCSS 
 
+-GraphQL for managing databases
+
+-JWT API
+
 **Default credentials**
 
 admin@test.com:123456
+
+**Useful web directory path**
+
+-**API Endpoints**
+
+Upload profile picture = /storage/v1/object/avatars/user/1d37c591-5478-40e2-bc70-c1f756c900e5.webp
+
 
