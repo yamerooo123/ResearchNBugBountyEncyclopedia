@@ -53,6 +53,8 @@ The above rule checks for specific media file extentions.
 
 -.htaccess allows SVG to be uploaded. However, when uploads SVG file with or without XSS embedded, the image doesn't upload to the web server.
 
+-.htaccess allows GIF to be uploaded. However, when uploads GIF file with or without XSS embedded, the image doesn't upload to the web server.
+
 -No issues with how server side processes file extensions.
 
 
