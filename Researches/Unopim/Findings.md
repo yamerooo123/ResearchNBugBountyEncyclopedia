@@ -8,6 +8,8 @@ GitHub repository: https://github.com/unopim/unopim
 
 <h2>Findings</h2>
 
+-Stored XSS : Cookie Hijacking
+
 <h2>Details</h2>
 
 **Techonogy stack**
@@ -59,6 +61,9 @@ The above rule checks for specific media file extentions.
 
 **In conclusion: Only JPEG and PNG file extentions work**
 
+<h2>Test 2: Upload image through Create User: Vulnerable</h2> 
+
+![image](https://github.com/user-attachments/assets/bf7ffc34-1092-4141-a5b7-95d9a8c3decf)
 
 
 
