@@ -18,6 +18,15 @@ GitHub repository: https://github.com/unopim/unopim
 
 -Postman API Documentation: https://www.postman.com/unopim/unopim-apis/collection/kzy03uh/official-unopim-apis?ctx=info
 
+<h3>.htaccess</h3>
+
+```
+RewriteCond %{HTTP:Authorization} .
+
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+```
+
+The above rule checks for **Authorization** which is a session token.
 
 
 
