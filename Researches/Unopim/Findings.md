@@ -57,6 +57,8 @@ The above rule checks for specific media file extentions.
 
 -No issues with how server side processes file extensions.
 
+**In conclusion: Only JPEG and PNG file extentions work**
+
 
 
 
