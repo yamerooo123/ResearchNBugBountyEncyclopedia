@@ -47,7 +47,14 @@ The above rule checks for **Authorization** which is a session token.
 
 The above rule checks for specific media file extentions.
 
-<h2>Test 1: Double extension</h2> 
+<h2>Test 1: Double extension: Invulnerable</h2> 
+
+![image](https://github.com/user-attachments/assets/b2cc70b2-6911-431d-b5ed-7f9c36835d82)
+
+-.htaccess allows SVG to be uploaded. However, when uploads SVG file with or without XSS embedded, the image doesn't upload to the web server.
+
+-No issues with how server side processes file extensions.
+
 
 
 
