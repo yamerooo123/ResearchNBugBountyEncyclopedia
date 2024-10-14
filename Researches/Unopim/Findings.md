@@ -18,6 +18,8 @@ GitHub repository: https://github.com/unopim/unopim
 
 -Postman API Documentation: https://www.postman.com/unopim/unopim-apis/collection/kzy03uh/official-unopim-apis?ctx=info
 
+-CSRF session token
+
 <h3>Default credentials</h3>
 
 **johndoe@example.com**:**JohnDoe@123**
