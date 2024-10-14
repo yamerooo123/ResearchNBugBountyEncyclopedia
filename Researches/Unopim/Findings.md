@@ -65,6 +65,7 @@ The above rule checks for specific media file extentions.
 
 ![image](https://github.com/user-attachments/assets/bf7ffc34-1092-4141-a5b7-95d9a8c3decf)
 
+-Even though Account page only allows admin to upload images using png and jpeg. This does not limited to Create User function. The vulnerable allows attackers to perform XSS in SVG file extension which can be used to stealing cookies.
 
 
 
