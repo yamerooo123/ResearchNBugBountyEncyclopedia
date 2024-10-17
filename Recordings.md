@@ -39,7 +39,7 @@
 
 **Progression: Hacker minset(สงสัย สงสัย สงสัย), exploit, payload, คิดนอกกรอบ, Try (digging) harder!**
 
-**แนะนำ: ถ้าพึ่งเริ่มส่วนตัวคิดว่ามาเริ่มกับ Hack the box Academy น่าจะดีที่สุด HTB Academy > Easy machines & Medium machines > CPTS > PG Practice ใช้ LainKusanagi list > OSCP น่าจะได้ OSCP เร็วที่สุด ทั้งนี้ทั้งนั้นควรอ่านเนื้อหา PEN-200 ด้วยเพราะสไตล์การสอบ OffSec ไม่เหมือน HTB ง่ายกว่าแต่น่ารำคาญกว่า**
+**แนะนำ: ถ้าพึ่งเริ่มส่วนตัวคิดว่ามาเริ่มกับ Hack the box Academy น่าจะดีที่สุด HTB Academy > Easy machines & Medium machines > CPTS > PG Practice ใช้ LainKusanagi list(TJ NULL list ก้ได้) > OSCP น่าจะได้ OSCP เร็วที่สุด ทั้งนี้ทั้งนั้นควรอ่านเนื้อหา PEN-200 ด้วยเพราะสไตล์การสอบ OffSec ไม่เหมือน HTB ง่ายกว่าแต่น่ารำคาญกว่า**
 
 
 
