@@ -1,4 +1,4 @@
-<h1>Year 1: STUDYING OSCP BE BACK IN A MONTH. Exam date: Oct 16. CURRENT STATE: WAITING FOR OFFSEC EMAIL! </h1>
+<h1>Year One: STUDYING OSCP BE BACK IN A MONTH. Exam date: Oct 16. CURRENT STATE: WAITING FOR OFFSEC EMAIL! </h1>
 
 
 <h1>About Me: Want to know who i am?</h1>
@@ -8,7 +8,7 @@
 
 I like to think and think again. like I'm living in the future where my head is constantly thinking all possibilities. this habit of mine is like a double-edge sword. It helps me see the outcome while stress is killing me. If you see me staring at the blank space please forgive me I'm having a life in my head. lol
 
-<b>My only regret is i should've found my passion early. i wonder how much potential would i become if i started my journey 2 years early.</b>
+<b>My only regret is that I didn’t find my passion earlier. I wonder how much potential I would have realized if I had started my journey two years sooner.</b>
 
 <h1>CVE records</h1>
 
