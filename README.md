@@ -1,4 +1,4 @@
-<h1>STUDYING OSCP BE BACK IN A MONTH. Exam date: Oct 16</h1>
+<h1>STUDYING OSCP BE BACK IN A MONTH. Exam date: Oct 16. CURRENT STATE: WAITING FOR OFFSEC EMAIL! </h1>
 
 
 <h1>About Me: Want to know who i am?</h1>
