@@ -1,6 +1,3 @@
-<h1>Year One: Milestones </h1>
-
-
 <h1>About Me: Want to know who i am?</h1>
 <p>I do bug bounties from time to time. I study many pentesting certs just because those look cool and I need OSCP to apply for a job. My hobby is researching on open-source projects and sometimes work on Linux binary project. When i look at source code, at first i feel like i know everything but to be honest with you my head keeps saying ERROR 404.</p>
 
@@ -13,6 +10,10 @@ I like to think and think again. like I'm living in the future where my head is 
 <h1>CVE records</h1>
 
 :file_folder:: [CLICK HERE](https://github.com/yamerooo123/CVE/tree/main)
+
+<h1>Opensource contributions</h1>
+
+:rocket:: 
 
 <h1>Life Goals</h1>
 
