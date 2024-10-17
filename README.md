@@ -7,11 +7,11 @@ I like to think and think again. like I'm living in the future where my head is 
 
 <b>My only regret is that I didn’t find my passion earlier. I wonder how much potential I would have realized if I had started my journey two years sooner.</b>
 
-<h1>CVE records</h1>
+<h1>CVE Records</h1>
 
 :file_folder:: [CLICK HERE](https://github.com/yamerooo123/CVE/tree/main)
 
-<h1>Opensource contributions</h1>
+<h1>Opensource Contributions</h1>
 
 :rocket:: [CLICK HERE](https://github.com/yamerooo123/ResearchNBugBountyEncyclopedia/blob/main/Contributions/Lists.md)
 
