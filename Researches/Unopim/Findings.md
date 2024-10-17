@@ -59,7 +59,7 @@ The above rule checks for specific media file extensions.
 
 -No issues with how server side processes file extensions.
 
-**In conclusion: Only JPEG and PNG file extentions work**
+**In conclusion: Only JPEG and PNG file extensions work in the Account page**
 
 <h2>Test 2: Upload image through Create User: Vulnerable</h2> 
 
