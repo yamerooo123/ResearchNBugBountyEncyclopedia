@@ -13,7 +13,7 @@ I like to think and think again. like I'm living in the future where my head is 
 
 <h1>Opensource contributions</h1>
 
-:rocket:: 
+:rocket:: [CLICK HERE](https://github.com/yamerooo123/ResearchNBugBountyEncyclopedia/blob/main/Contributions/Lists.md)
 
 <h1>Life Goals</h1>
 
