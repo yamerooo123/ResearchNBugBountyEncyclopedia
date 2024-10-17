@@ -6,7 +6,7 @@
 
 <p>My philosophy i live by is there are only people who know and who don't. You don't know today doesn't mean you are dumb. Different people different stories, I like to hear their stories because good stories make the best knowledge!</p>
 
-I like to think and think again. like I'm living in the future where my head is constantly thinking all possibilities. this habit of mine is like a double-edge sword. It helps me see the outcome while stressing is killing me. If you see me staring at the blank space please forgive me I'm having a life in my head. lol
+I like to think and think again. like I'm living in the future where my head is constantly thinking all possibilities. this habit of mine is like a double-edge sword. It helps me see the outcome while stress is killing me. If you see me staring at the blank space please forgive me I'm having a life in my head. lol
 
 <h1>CVE records</h1>
 
