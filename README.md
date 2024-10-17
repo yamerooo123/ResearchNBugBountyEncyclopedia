@@ -1,4 +1,4 @@
-<h1>STUDYING OSCP BE BACK IN A MONTH. Exam date: Oct 16. CURRENT STATE: WAITING FOR OFFSEC EMAIL! </h1>
+<h1>Year 1: STUDYING OSCP BE BACK IN A MONTH. Exam date: Oct 16. CURRENT STATE: WAITING FOR OFFSEC EMAIL! </h1>
 
 
 <h1>About Me: Want to know who i am?</h1>
@@ -7,6 +7,8 @@
 <p>My philosophy i live by is there are only people who know and who don't. You don't know today doesn't mean you are dumb. Different people different stories, I like to hear their stories because good stories make the best knowledge!</p>
 
 I like to think and think again. like I'm living in the future where my head is constantly thinking all possibilities. this habit of mine is like a double-edge sword. It helps me see the outcome while stress is killing me. If you see me staring at the blank space please forgive me I'm having a life in my head. lol
+
+<b>My only regret is i should've found my passion early. i wonder how much potential would i become if i started my journey 2 years early.</b>
 
 <h1>CVE records</h1>
 
