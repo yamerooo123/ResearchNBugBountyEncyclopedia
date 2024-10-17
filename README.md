@@ -20,6 +20,8 @@
 
 3. Found Windows or any Linux distro OS kernel exploitation
 
+4. Burp Pro ... You heard it right ... i want BURP PRO!
+
 
 <i>My journal as a security researcher!</i><br />
 <b><h1>Favorite tools</h1></b><br />
