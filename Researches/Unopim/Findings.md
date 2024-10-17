@@ -47,7 +47,7 @@ The above rule checks for **Authorization** which is a session token.
 </FilesMatch>
 ```
 
-The above rule checks for specific media file extentions.
+The above rule checks for specific media file extensions.
 
 <h2>Test 1: Double extension: Invulnerable</h2> 
 
