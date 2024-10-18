@@ -110,7 +110,7 @@
 
 **ทิปที่ 4: ทำ SQL injection ให้เป็นโดยที่ไม่พึ่ง SQLmap หรือ Ghauri เพราะ 2 ตัวนี้โดนแบนในข้อสอบ ปกติเวลาเทส SQL injection ผมจะใช้ statement ง่ายๆ แต่พอต้องมาเจาะระบบด้วยตัวเองจริงๆ โดยไม่มี automated tool ผมไปไม่เป็นเลย5555 กินเวลาไป 5-6 ชม. เพราะต้องไปเรียนรู้หน้างาน เน้น Union-based กับ Time-based ส่วน Error-based รู้ไว้ก็ดีครับ**
 
-**ทิปที่ 5: เวลารัน netcat listening port ควร port 80 กับ 443 เพราะอะไรไม่เข้าใจเหมือนกันเครื่อง OffSec ไม่ว่าจะเป็น PG Practice หรือเครื่องซ้อมนอกจาก 2 port นี้ port อื่นแทบไม่ติด**
+**ทิปที่ 5: เวลารัน netcat listening port ควร port 80 กับ 443 เพราะอะไรไม่เข้าใจเหมือนกันเครื่อง OffSec ไม่ว่าจะเป็น PG Practice หรือเครื่องซ้อมนอกจาก 2 port นี้ port อื่นแทบไม่ติดและรันถ้าให้เดาน่าจะเป็นเพราะ firewall และรัน powershell -ep bypass ทุกครั้งบางเครื่องสคริปไม่สามารถทำงานได้เพราะ Shell มี Restriction นั่นเอง**
 
 **ทิปที่ 6: ใช้ [penelope](https://github.com/brightio/penelope) สำหรับ shell handler สำหรับ reverse shell จะทำให้ชีวิตคุณสบายขึ้นเยอะ555**
 
