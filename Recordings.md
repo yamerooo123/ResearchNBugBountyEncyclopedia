@@ -112,7 +112,7 @@
 
 **ทิปที่ 5: เวลารัน netcat listening port ควร port 80 กับ 443 เพราะอะไรไม่เข้าใจเหมือนกันเครื่อง OffSec ไม่ว่าจะเป็น PG Practice หรือเครื่องซ้อมนอกจาก 2 port นี้ port อื่นแทบไม่ติดและรันถ้าให้เดาน่าจะเป็นเพราะ firewall และรัน powershell -ep bypass ทุกครั้งบางเครื่องสคริปไม่สามารถทำงานได้เพราะ Shell มี Restriction นั่นเอง**
 
-**ทิปที่ 6: ใช้ [penelope](https://github.com/brightio/penelope) สำหรับ shell handler สำหรับ reverse shell จะทำให้ชีวิตคุณสบายขึ้นเยอะ555**
+**ทิปที่ 6: ใช้ [penelope](https://github.com/brightio/penelope) สำหรับ shell handler สำหรับ reverse shell จะทำให้ชีวิตคุณสบายขึ้นเยอะ555 (คิดซะว่ามันคือ netcat shell ที่เราไม่ต้องรัน3-4คอมแมนเพื่อให้ได้ full-interactive shell)**
 
 <h1>ตอนนี้รอ OffSec ตรวจรีพอตอยู่ 18 ตุลา</h1>
 
