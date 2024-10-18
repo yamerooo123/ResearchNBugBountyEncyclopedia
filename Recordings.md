@@ -79,9 +79,13 @@
 นานวันเข้าผมเริ่มหาความรู้ใหม่ได้จากหลายช่องทางเช่น NahamSec, Jhaddix และ LinkedIn! ในเวลาเดียวกันผมเริ่มพัฒนา soft skill และให้ความสำคัญเรื่องการหา connection มากขึ้น(Networking) แต่ด้วยที่ว่าตัวผมนั่งอยู่หน้าจอบ่อยเลยคิดว่าการทำความรู้จักผ่าน Internet น่าจะเหมาะกับผมที่สุด ผมเริ่มคุยกับหลายๆคนทั้งคนไทยและต่างชาติ(ถึงทุกวันนี้จะยังไม่มีก็ตามแต่ก็จะพยายามต่อไป555)
 ผ่านไป 3 เดือนผมเรียน CPTS path จบตัดสินใจสอบ! ถึงแม้ว่าผมจะไม่มั่นใจก็ตามแต่ไม่ลองก็ไม่รู้555 การสอบให้เวลา 10 วัน(pentesting + เขียนรีพอต 100 หน้า) โดยต้องทำให้ได้ขั้นต่ำ 85% หรือ 12/14 flags นั่นเอง HTB บอกว่าให้คิดว่า CPTS คือการทำ Pentest จริงแต่ผมไม่มีประสบการณ์ตรงนั้นเลยใช้ประสบการณ์จาก bug hunting แทน + PNPT mindset ที่เคยเรียนมาผมใช้เวลา 9 วันเพื่อ 12 flags และอีก 1 วันเขียนรีพอต(ซึ่งมันไม่ทันรีพอตเลยชุ่ย) ทำให้รอบแรกผมต้องตกไปตามระเบียบ HTB ให้โอกาศสำหรับคนที่ตกรีพอตในการเขียนรัพอตใหม่โดยที่ไม่ต้องเก็บ flags อีกรอบ ครั้งที่ 2 ของผมผมใช้เวลา 3 วันในการเขียนเพื่อทำให้มั่นใจว่ารีพอตผมเพอร์เฟคที่สุดเท่าที่จะทำได้ผ่านไป 2 สัปดาหฺ์(โดยประมาณ)จดหมายจากทาง HTB ส่งกลับมาในจดหมายพร้อมใบเซอร์!
 
+**Progression: CPTS, real world experience(bug bounty program and vulnerability disclosure program), bug hunting methodology, Networking**
+
 ![image](https://github.com/user-attachments/assets/9e9d7d05-4761-4327-a690-8934b0982b1b)
 
-**Progression: CPTS, real world experience(bug bounty program and vulnerability disclosure program), bug hunting methodology, Networking**
+![CPTS](https://github.com/user-attachments/assets/2a7f3c6e-f4b5-4a16-b618-58e53280257a)
+
+
 
 
 
