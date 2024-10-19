@@ -10,7 +10,7 @@ https://github.com/sbondCo/Watcharr/issues/649
 
 https://github.com/sbondCo/Watcharr/releases/tag/v1.44.0
 
-<h1>Webkul/UnoPim - Cookie Hijacking via Stored XSS</h1>
+<h1>WEBKUL/UnoPim - Cookie Hijacking via Stored XSS</h1>
 
 https://github.com/unopim/unopim/releases/tag/v0.1.4
 
