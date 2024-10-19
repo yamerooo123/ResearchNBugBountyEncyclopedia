@@ -21,7 +21,7 @@ I like to think and think again. like I'm living in the future where my head is 
 
 1. Found 100 CVE ( 1/100 )
   
-2. OSEE holder
+2. OSEE holder (Prolly 5 years from now on. Year 2030?)
 
 3. Found Windows or any Linux distro OS kernel exploitation
 
