@@ -6,8 +6,46 @@
 
 Open Source Wealth Management Software. Angular + NestJS + Prisma + Nx + TypeScript
 
+<h2>Tested on</h2>
+
+-Ubuntu 22.04.5 LTS
+
+-Ghostfolio 2.117.0
+
 <h2>Findings</h2>
 
 <h2>Details</h2>
 
+**Security token(For testing): fbae5ab28f324f17ae690960176e0bad679667f9fcbb94b69d1e52e1916e167192228f4ffbe7fd7333531583557c71efbfde0aa4c95086b3914faca446300e32**
+
+**API Endpoints**
+
+
+
+```
+POST /api/v1/user HTTP/1.1
+```
+**-Profile**
+
+```
+GET /api/v2/portfolio/performance?range=max HTTP/1.1
+```
+
+**-Login with Security Token**
+
+```
+POST /api/v1/auth/anonymous HTTP/1.1
+```
+
+-The systen uses JWT session which means XSS is worth checking.
+
+<h1>XSS test</h1>
+
+![image](https://github.com/user-attachments/assets/a5ec684c-7bc3-4099-9a15-02ad0da2ee45)
+
+**Result**
+
+![image](https://github.com/user-attachments/assets/79cab867-dbaf-4da8-9867-91bf3e3c787d)
+
+The output indicates that the web app is not vulnerable as it removes and sanitizes special character such as a double quote.
 
