@@ -42,6 +42,24 @@ POST /api/v1/auth/anonymous HTTP/1.1
 POST /api/v1/order HTTP/1.1
 ```
 
+```
+GET /api/v2/portfolio/performance?range=max HTTP/1.1
+```
+
+<h1>Performance API Test</h1>
+
+| Attack                     | Payload                 | Result | 
+| ------------------------ | --------------------- | ------------- | 
+| `SQL`      | `max;%20select%20pg_sleep(10);--%20-`              |      :x:         | 
+| `XSS`      | `<script>alert('XSS')</script>`              |      :x:         | 
+
+
+
+/api/v2/portfolio/performance?range=max;%20select%20pg_sleep(10);--%20-
+
+
+
+
 -The systen uses JWT session which means XSS is worth checking.
 
 <h1>XSS test</h1>
