@@ -6,6 +6,8 @@
 
 Open Source Wealth Management Software. Angular + NestJS + Prisma + Nx + TypeScript
 
+GitHub Repo: https://github.com/ghostfolio/ghostfolio
+
 <h2>Tested on</h2>
 
 -Ubuntu 22.04.5 LTS
@@ -41,10 +43,31 @@ POST /api/v1/auth/anonymous HTTP/1.1
 ```
 POST /api/v1/order HTTP/1.1
 ```
+**-Place orders queries**
+
+```
+GET /api/v1/order?sortColumn=date&sortDirection=desc&take=50 HTTP/1.1
+```
+
 
 ```
 GET /api/v2/portfolio/performance?range=max HTTP/1.1
 ```
+**-Search**
+```
+GET /api/v1/portfolio/holdings?query=a&range=1d HTTP/1.1
+```
+When trying to insert XSS script in input
+
+![image](https://github.com/user-attachments/assets/3f3b634f-c910-4e28-bafa-51b1c1b60371)
+
+
+Results
+
+![image](https://github.com/user-attachments/assets/aa9883c3-a631-4fcf-9267-2507860d8d34)
+
+The input is sanitized. This is a great example.
+
 
 <h1>Performance API Test</h1>
 
@@ -52,6 +75,7 @@ GET /api/v2/portfolio/performance?range=max HTTP/1.1
 | ------------------------ | --------------------- | ------------- | 
 | `SQL`      | `max;%20select%20pg_sleep(10);--%20-`              |      :x:         | 
 | `XSS`      | `<script>alert('XSS')</script>`              |      :x:         | 
+| `LFI`      | `%2e%2e%2f%2e%2e%2f%2e%2e%2fetc/passwd`              |      :x:         |
 
 
 
