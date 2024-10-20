@@ -8,4 +8,4 @@
    
 3. Certified Penetratoin Testing Specialist - **HackTheBox**
    
-4. ---soon---
+4. Offsensive Security Certified Professional - **OffSec** 
