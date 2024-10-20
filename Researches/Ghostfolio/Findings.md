@@ -36,6 +36,11 @@ GET /api/v2/portfolio/performance?range=max HTTP/1.1
 ```
 POST /api/v1/auth/anonymous HTTP/1.1
 ```
+**-Place orders**
+
+```
+POST /api/v1/order HTTP/1.1
+```
 
 -The systen uses JWT session which means XSS is worth checking.
 
