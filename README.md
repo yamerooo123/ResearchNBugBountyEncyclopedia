@@ -5,7 +5,9 @@
 
 I like to think and think again. like I'm living in the future where my head is constantly thinking all possibilities. this habit of mine is like a double-edge sword. It helps me see the outcome while stress is killing me. If you see me staring at the blank space please forgive me I'm having a life in my head. lol
 
-<b>My only regret is that I didn’t find my passion earlier. I wonder how much potential I would have realized if I had started my journey two years sooner.</b>
+<b>I don't know why but i never completely feel satisfied no matter how much i want to appreciate my works.</b>
+
+
 
 <h1>CVE Records</h1>
 
