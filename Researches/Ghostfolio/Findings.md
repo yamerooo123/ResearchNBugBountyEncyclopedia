@@ -62,7 +62,7 @@ GET /api/v2/portfolio/performance?range=max HTTP/1.1
 
 -The systen uses JWT session which means XSS is worth checking.
 
-<h1>XSS test</h1>
+<h1>XSS test(Invulnerable)</h1>
 
 ![image](https://github.com/user-attachments/assets/a5ec684c-7bc3-4099-9a15-02ad0da2ee45)
 
