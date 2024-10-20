@@ -16,6 +16,9 @@ GitHub Repo: https://github.com/ghostfolio/ghostfolio
 
 <h2>Findings</h2>
 
+The web application is secured. Couldn't find any vulnerability
+
+
 <h2>Details</h2>
 
 **Security token(For testing): fbae5ab28f324f17ae690960176e0bad679667f9fcbb94b69d1e52e1916e167192228f4ffbe7fd7333531583557c71efbfde0aa4c95086b3914faca446300e32**
