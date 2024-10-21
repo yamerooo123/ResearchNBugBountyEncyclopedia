@@ -15,3 +15,7 @@ https://github.com/sbondCo/Watcharr/releases/tag/v1.44.0
 https://github.com/unopim/unopim/releases/tag/v0.1.4
 
 https://github.com/unopim/unopim/issues/41
+
+<h1>PyMOL - RCE through Run Script function</h1>
+
+https://github.com/schrodinger/pymol-open-source/issues/405
