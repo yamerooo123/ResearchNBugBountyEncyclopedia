@@ -19,3 +19,5 @@ https://github.com/unopim/unopim/issues/41
 <h1>PyMOL - RCE through Run Script function</h1>
 
 https://github.com/schrodinger/pymol-open-source/issues/405
+
+<b>Vendors will be implementing the fix by creating a warning box</b>
