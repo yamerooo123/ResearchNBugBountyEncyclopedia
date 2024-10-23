@@ -21,3 +21,13 @@ Host Header Injection (Node.js & PHP): req.headers.host path:*pass* and /\$_SERV
 Host Header Injection generic: host path:**/*forgot*/**
 
 Insecure Deserialization in PHP: /(unserialize\()(.*\$_POST|.*\$_GET|.*\$_REQUEST)/
+
+**CVE Response time**
+
+Fast = notionally 1-3 days
+
+Normal = notionally 1-3 weeks
+
+Slow = notionally, time permitting
+
+Reference: https://cve.mitre.org/data/board/archives/2011-10/msg00003.html
