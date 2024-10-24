@@ -22,7 +22,11 @@ Codename:       jammy
 
 <h3>Description</h3>
 
-This vulnerability should be described as design limitation as the fucntion is work as it intended but possessed a serious issue if the feature is used for malicious activities. However, this issue has raise the same vulnerability suggested in CVE-2019–9193 and CVE-2023-28311. 
+This vulnerability should be described as design limitation as the fucntion is work as it intended but possessed a serious issue if the feature is used for malicious activities. However, this issue has raise the same vulnerability suggested in CVE-2019–9193 and CVE-2023-28311.
+
+CVE-2019–9193 allows authenticated users to gain RCE through SQL statement.
+
+CVE-2023-28311 allows attackers to embed VBS script which is a Microsoft office feature. Once the victim opens the file, the VBS script automatically executes the script, leadning to RCE.
 
 <h1>Details</h1>
 
