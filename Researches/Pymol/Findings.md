@@ -22,7 +22,7 @@ Codename:       jammy
 
 <h3>Description</h3>
 
-This vulnerability should be described as design limitation as the fucntion is work as it intended. However, this issue has raise the same vulnerability suggested in CVE-2019–9193 and CVE-2023-28311. 
+This vulnerability should be described as design limitation as the fucntion is work as it intended but possessed a serious issue if the feature is used for malicious activities. However, this issue has raise the same vulnerability suggested in CVE-2019–9193 and CVE-2023-28311. 
 
 <h1>Details</h1>
 
