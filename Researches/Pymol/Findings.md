@@ -20,6 +20,10 @@ Codename:       jammy
 
 1. RCE through the Run Script function
 
+<h3>Description</h3>
+
+This vulnerability should be described as design limitation as the fucntion is work as it intended. However, this issue has raise the same vulnerability suggested in CVE-2019–9193 and CVE-2023-28311. 
+
 <h1>Details</h1>
 
 The software implements serveral dangerous Python functions without input sanitization. For instance, a file with PYM file extension is treated the same as a Python, allowing the attackers to insert a malicious PYM file with reverse shell payload. This could potentially lead to RCE.
