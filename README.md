@@ -48,6 +48,7 @@ I like to think and think again. like I'm living in the future where my head is 
 | Ghauri | Sql injection alternative  |  https://github.com/r0oth3x49/ghauri |<br />
 | ParamSpider | URL parameter fuzzing  |  https://github.com/devanshbatham/ParamSpider |<br />
 | SubSnipe | Automated subdomain takeover checker  |https://github.com/dub-flow/subsnipe |<br />
+| Acunetix | Vulnerability web scanner  |[https://github.com/dub-flow/subsnipe](https://www.acunetix.com/vulnerability-scanner/ |<br />
 
 
 
