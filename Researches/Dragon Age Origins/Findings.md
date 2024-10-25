@@ -8,7 +8,7 @@ Steam link: https://store.steampowered.com/app/47810/Dragon_Age_Origins__Ultimat
 
 **Findings:**
 
-Unquoted Service Path (high severity)
+Unquoted Service Path (high severity) (reported to EA)
 
 **Details**
 
