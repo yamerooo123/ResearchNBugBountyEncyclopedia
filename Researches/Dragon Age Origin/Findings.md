@@ -8,7 +8,7 @@ Steam link: https://store.steampowered.com/app/47810/Dragon_Age_Origins__Ultimat
 
 **Findings:**
 
-Unquoted Service Path 
+Unquoted Service Path (high severity)
 
 **Details**
 
@@ -23,6 +23,11 @@ Furthurmore, by default, the service file allows users to modify the path.
 Manual testing found that unprivileged users have Full Access privileges on this service. This misconfiguration is potentially vulnerable to unquoted service path. The attackers can abuse this to gain RCE.
 
 ![image](https://github.com/user-attachments/assets/608637dc-ba15-4b12-9880-0c9f11afeed6)
+
+In order to exploit, this i crafted .exe file which containing the following commands.
+
+![image](https://github.com/user-attachments/assets/242cfb65-7da7-4b59-87b1-bbe210347dc6)
+
 
 
 
