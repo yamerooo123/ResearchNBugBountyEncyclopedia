@@ -52,6 +52,7 @@ I like to think and think again. like I'm living in the future where my head is 
 | SubSnipe | Automated subdomain takeover checker  |https://github.com/dub-flow/subsnipe |<br />
 | Acunetix | Vulnerability web scanner  |https://www.acunetix.com/ |<br />
 | PortSwigger | For learning web pentesting knowledge | https://portswigger.net/web-security/ |<br />
+| NoSQLMap | automating NoSQL injection | https://github.com/codingo/NoSQLMap |<br />
 
 
 
