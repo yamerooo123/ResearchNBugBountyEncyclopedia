@@ -65,6 +65,7 @@ I like to think and think again. like I'm living in the future where my head is 
 | DNS providers      | Check for potential subdomain takeover-able providers      | https://github.com/EdOverflow/can-i-take-over-xyz   | 
 | XSS cheatsheet      | XSS cheatsheet      | https://portswigger.net/web-security/cross-site-scripting/cheat-sheet   |
 | SQL injection cheatsheet      | SQL injection cheatsheet      | https://portswigger.net/web-security/sql-injection/cheat-sheet   |
+| Frida cheatsheet      | Frida usage cheatsheet      | https://erev0s.com/blog/frida-code-snippets-for-android/   |
 
 
 
