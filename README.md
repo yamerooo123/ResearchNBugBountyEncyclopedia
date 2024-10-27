@@ -53,6 +53,7 @@ I like to think and think again. like I'm living in the future where my head is 
 | Acunetix | Vulnerability web scanner  |https://www.acunetix.com/ |<br />
 | PortSwigger | For learning web pentesting knowledge | https://portswigger.net/web-security/ |<br />
 | NoSQLMap | Automating NoSQL injection | https://github.com/codingo/NoSQLMap |<br />
+| Frida | Mobile pentesting tool | https://github.com/frida/frida |<br />
 
 
 
