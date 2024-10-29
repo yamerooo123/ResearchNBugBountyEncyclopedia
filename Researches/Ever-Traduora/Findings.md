@@ -8,11 +8,11 @@ GitHub repo: https://github.com/ever-co/ever-traduora
 
 **Findings**
 
-<REDACTED>
+REDACTED
 
 **Details**
 
-<REDACTED>
+REDACTED
 
 
 <h1>WILL BE DISCOSE TO PUBLIC AFTER THE VULNERABILITIES ARE PATCHED</h1>
