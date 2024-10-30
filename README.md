@@ -3,11 +3,11 @@
 <h1>About Me: Want to know who i am?</h1>
 <p>I do bug bounties from time to time. I study many pentesting certs just because those look cool and I need OSCP to apply for a job. My hobby is researching on open-source projects and sometimes work on Linux binary project. When i look at source code, at first i feel like i know everything but to be honest with you my head keeps saying ERROR 404.</p>
 
-<p>My philosophy i live by is there are only people who know and who don't. You don't know today doesn't mean you are dumb. Different people different stories, I like to hear their stories because good stories make the best knowledge! Strive to be better, **keep pushing forward because it is the way, refuse to be an idiot sandwich.** LOL</p>
+<p>My philosophy i live by is there are only people who know and who don't. You don't know today doesn't mean you are dumb. Different people different stories, I like to hear their stories because good stories make the best knowledge! 
+
+**Strive to be better, keep pushing forward because it is the way, refuse to be an idiot sandwich** LOL</p>
 
 I like to think and think again. like I'm living in the future where my head is constantly thinking all possibilities. this habit of mine is like a double-edge sword. It helps me see the outcome while stress is killing me. If you see me staring at the blank space please forgive me I'm having a life in my head. lol
-
-<b>I don't know why but i never completely feel satisfied no matter how much i want to appreciate my works.</b>
 
 
 
