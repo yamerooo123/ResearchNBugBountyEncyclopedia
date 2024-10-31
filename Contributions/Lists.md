@@ -25,3 +25,7 @@ https://github.com/schrodinger/pymol-open-source/issues/405
 <h1>Electronic Arts(EA)/???? - ????? (CVE-202?-????)</h1>
 
 https://www.ea.com/security/disclosure
+
+<h1>Ever/Traduora - ????? (CVE-202?-????)</h1>
+
+https://github.com/ever-co/ever-traduora
