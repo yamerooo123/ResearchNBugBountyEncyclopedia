@@ -21,3 +21,7 @@ https://github.com/unopim/unopim/issues/41
 https://github.com/schrodinger/pymol-open-source/issues/405
 
 <b>Vendors will be implementing the fix by creating a warnings box</b>
+
+<h1>Electronic Arts(EA)/???? - ????? (CVE-202?-????)</h1>
+
+https://www.ea.com/security/disclosure
