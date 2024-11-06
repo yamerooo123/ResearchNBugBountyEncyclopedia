@@ -28,4 +28,7 @@ https://www.ea.com/security/disclosure
 
 <h1>Ever/Traduora - ????? (CVE-202?-????)</h1>
 
-https://github.com/ever-co/ever-traduora
+https://github.com/ever-co/ever-traduora/issues/431
+
+https://github.com/ever-co/ever-traduora/pull/432
+
