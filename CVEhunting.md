@@ -30,4 +30,6 @@ Normal = notionally 1-3 weeks
 
 Slow = notionally, time permitting
 
+(Sometimes MITRE can send several CVE IDs in one reply. that's why if you keep sending the CVE request and haven't received any of CVE ID. it is possible that you will get those altogether in one reply.)
+
 Reference: https://cve.mitre.org/data/board/archives/2011-10/msg00003.html
