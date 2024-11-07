@@ -4,7 +4,7 @@
 
 (via email)
 
-<h1>Watcharr - Privilege Escalation(CVE-2024-48827)</h1>
+<h1>Watcharr - Privilege Escalation(CVE-2024-48827, CVE-2024-50634)</h1>
 
 https://github.com/sbondCo/Watcharr/issues/649
 
