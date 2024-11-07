@@ -10,13 +10,13 @@ https://github.com/sbondCo/Watcharr/issues/649
 
 https://github.com/sbondCo/Watcharr/releases/tag/v1.44.0
 
-<h1>WEBKUL/UnoPim - Cookie Hijacking via Stored XSS(CVE-2024-????)</h1>
+<h1>WEBKUL/UnoPim - Cookie Hijacking via Stored XSS(CVE-2024-50637)</h1>
 
 https://github.com/unopim/unopim/releases/tag/v0.1.4
 
 https://github.com/unopim/unopim/issues/41
 
-<h1>PyMOL - RCE through Run Script function</h1>
+<h1>PyMOL - RCE through Run Script function(CVE-2024-50636)</h1>
 
 https://github.com/schrodinger/pymol-open-source/issues/405
 
