@@ -23,7 +23,7 @@ I like to think and think again. like I'm living in the future where my head is 
 
 **Life without purpose is too boring!**
 
-1. Found 100 CVE ( 2/100 )
+1. Found 100 CVE ( 5/100 )
   
 2. OSEE holder (Prolly 5 years from now on. Year 2030?)
 
