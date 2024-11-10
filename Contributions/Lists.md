@@ -34,3 +34,4 @@ https://github.com/ever-co/ever-traduora/issues/431
 
 https://github.com/ever-co/ever-traduora/pull/432
 
+https://github.com/ever-co/ever-traduora/releases/tag/v0.20.1
