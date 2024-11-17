@@ -1,1 +1,1 @@
-<h1>This tool is intended to be my personal script for pentesting by combining every Python script in Inventory folder! If i have time that is. xD </h1>
+<h1>This tool is intended to be my personal script for pentesting by combining every Python script in Inventory folder! If i have time that is. You can improve it and make it yours and that's fine by me. But please don't ask how it work withour asking ChatGPT first. xD </h1>
