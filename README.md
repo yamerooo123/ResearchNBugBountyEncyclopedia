@@ -71,6 +71,13 @@ I like to think and think again. like I'm living in the future where my head is 
 | SQL injection cheatsheet      | SQL injection cheatsheet      | https://portswigger.net/web-security/sql-injection/cheat-sheet   |
 | Frida cheatsheet      | Frida usage cheatsheet      | https://erev0s.com/blog/frida-code-snippets-for-android/   |
 
+<b><h1>Tips & Tricks </h1></b><br />
+| Checklist        | Desc.(คือ)          | URL & Repo(ลิ้งค์repoและURL)  |
+| ------------- |:-------------:| -----:|
+| Buffer Overflow in source code      | it is like you can write 4 letters but you add the 5th letter in the word. this causes the program to act differently  | In source code, look for **gets, strcopy, strcat, and printf/sprint**   | 
+
+
+
 
 
 
