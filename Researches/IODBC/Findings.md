@@ -81,4 +81,31 @@ __PRETTY_FUNCTION__ = "___pthread_mutex_lock"
 id = <optimized out>
 ```
 From the above command, This is what memory stack actually store. We discovered 2 variables type and id.
-
+```
+(gdb) info registers
+rax            0x0                 0
+rbx            0x0                 0
+rcx            0x7ffff7e96887      140737352657031
+rdx            0x555555652428      93824993272872
+rsi            0x0                 0
+rdi            0x555555652460      93824993272928
+rbp            0x555555652428      0x555555652428 <henv>
+rsp            0x7fffffffd308      0x7fffffffd308
+r8             0x7ffff7f9ea70      140737353738864
+r9             0x5555556580d0      93824993296592
+r10            0x77                119
+r11            0x246               582
+r12            0x0                 0
+r13            0x555555407820      93824990869536
+r14            0x0                 0
+r15            0x7ffff7ffd040      140737354125376
+rip            0x7ffff7e19ef0      0x7ffff7e19ef0 <___pthread_mutex_lock>
+eflags         0x202               [ IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+```
+**NOTE:** **rip** means pointer. It is very important to focus on this. In this case, the pointer is pointed to pthread_mutex_lock where the program is paused.
