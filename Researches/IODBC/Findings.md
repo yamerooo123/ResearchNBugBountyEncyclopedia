@@ -70,5 +70,15 @@ x/32x $sp
 ```
 ![image](https://github.com/user-attachments/assets/d6685e79-8787-4e32-9b77-6f7b69b7bfb3)
 
-
+Additional info.
+```
+info locals
+```
+```
+(gdb) info locals
+type = <optimized out>
+__PRETTY_FUNCTION__ = "___pthread_mutex_lock"
+id = <optimized out>
+```
+From the above command, This is what memory stack actually store. We discovered 2 variables type and id.
 
