@@ -22,3 +22,14 @@ docker run --rm -v /usr/bin/iodbctest:/input ghcr.io/fkie-cad/cwe_checker /input
 **Output**
 ---
 
+The result shows that there is issues related to buffer overflow vulnerability when calling **pthread_mutex_lock** function, Null Pointer Dereference and Stack Memory Exhaustion
+
+![image](https://github.com/user-attachments/assets/a177e661-bd07-45d0-8aa8-4e3aab4b2cb6)
+
+![image](https://github.com/user-attachments/assets/9c63ccf8-1374-4e7e-8f6e-24d9e6bee6c2)
+
+![image](https://github.com/user-attachments/assets/c3a37d49-45a2-4bf2-9064-de3c30bdc18a)
+
+
+
+
