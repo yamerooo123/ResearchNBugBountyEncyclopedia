@@ -62,5 +62,13 @@ Breakpoint 1, ___pthread_mutex_lock (mutex=0x555555652460 <iodbcdm_global_lock>)
 (gdb)
 ```
 
-As you can see that, **iodbctest** called **libthread_db.so.1** and then printed out some string. Then the first breakpoint crashes in the 77th line in **./nptl/pthread_mutex_lock.c**
+As you can see that, **iodbctest** called **libthread_db.so.1** and then printed out some string. Then the first breakpoint crashes in the 77th line in **./nptl/pthread_mutex_lock.c**. Since this is a binary without sourcecode which is why GDB couldnt find pthread_mutex_lock.c
+
+Inspecting memory and stack ( in the picture below is "stack". But before it becomes a stack, it was a buffer such as a string)
+```
+x/32x $sp
+```
+![image](https://github.com/user-attachments/assets/d6685e79-8787-4e32-9b77-6f7b69b7bfb3)
+
+
 
