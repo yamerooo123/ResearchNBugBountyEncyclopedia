@@ -108,4 +108,10 @@ es             0x0                 0
 fs             0x0                 0
 gs             0x0                 0
 ```
-**NOTE:** **rip** means pointer. It is very important to focus on this. In this case, the pointer is pointed to pthread_mutex_lock where the program is paused.
+**NOTE:** **rip, rsp, rbp** are pointers. It is very important to focus on these. In this case, the pointer is pointed to pthread_mutex_lock where the program is paused.
+
+rip = Instruction Pointer
+
+rsp = Stack Pointer
+
+rbp = Base Pointer
