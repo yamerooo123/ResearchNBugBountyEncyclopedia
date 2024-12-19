@@ -43,6 +43,7 @@ I like to think and think again. like I'm living in the future where my head is 
 | ------------- |:-------------:| -----:|
 | BBot      | Subdomain enumeration | https://github.com/blacklanternsecurity/bbot |
 | Httpstatus      | Check HTTP status      |   https://httpstatus.io/ | 
+| Http status checker      | Check HTTP status automation    |   https://github.com/BLACK-SCORP10/url-status-checker | 
 | Shopify free trial | Validate subdomain takeover vuln.      |  https://www.shopify.com/ |
 | Katana | Web crawling      | https://github.com/projectdiscovery/katana |
 | Zenrows | Web scraper API for bypassing WAF      |  https://www.zenrows.com/ |
