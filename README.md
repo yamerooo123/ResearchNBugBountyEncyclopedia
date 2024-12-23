@@ -1,7 +1,7 @@
 <h1>Got work to do but I will try my best to update the content.</h1>
 
 <h1>About Me: Want to know who i am?</h1>
-<p>I do bug bounties from time to time. I study many pentesting certs just because those look cool and I need OSCP to apply for a job. My hobby is researching on open-source projects and sometimes work on Linux binary project. When i look at source code, at first i feel like i know everything but to be honest with you my head keeps saying ERROR 404.</p>
+<p>I do bug bounties from time to time. I study many pentesting certs just because those look cool and I need OSCP to apply for a job. My hobby is researching on open-source projects and sometimes working on Linux binary project. When i look at source code, at first i feel like i know everything but to be honest with you my head keeps saying ERROR 404.</p>
 
 <p>My philosophy i live by is there are only people who know and who don't. You don't know today doesn't mean you are dumb. Different people different stories, I like to hear their stories because good stories make the best knowledge! 
 
