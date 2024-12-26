@@ -1,6 +1,6 @@
 **Some might not have references because i contacted vendors through email**
 
-<h1>Operately - RCE (CVE-2024-48093)</h1>
+<h1>Operately - Arbitary File Upload Leading to Remote Command Execution (CVE-2024-48093)</h1>
 
 (via email)
 
