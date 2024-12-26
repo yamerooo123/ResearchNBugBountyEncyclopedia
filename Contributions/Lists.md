@@ -35,3 +35,7 @@ https://github.com/ever-co/ever-traduora/issues/431
 https://github.com/ever-co/ever-traduora/pull/432
 
 https://github.com/ever-co/ever-traduora/releases/tag/v0.20.1
+
+<h1>InnoShop - Stored Cross-Site Scripting (CVE-2025-xxxx)</h1>
+
+https://github.com/innocommerce/innoshop/issues/115
