@@ -58,7 +58,25 @@ The result is i was not able to connect to my WiFi.
 
 WiFi Password Cracking
 ---
-We can use **.cap** files which we obtained when our rogue access point went wild. We can use Hashcat to crack password!
+We can use **.cap** files which we obtained when our rogue access point went wild. We can use Hashcat to crack pre-shared key hashes!
+
+**Note:** To be able to crack a WPA2 hashes, you have to make sure that there is a handshake request for airodump to intercept. If you don't know what a handshake is. It is a process where a client and an access point is trying to establish a connection. This is similar to TCP handshake between a user and a web server. 
+![image](https://github.com/user-attachments/assets/2647868c-67fd-4938-a2e0-a23d95b4ae2d)
+
+Next, we will attempt to crack a WPA2 password. In this example, i have created a wordlistt file which contain a correct password.
+![image](https://github.com/user-attachments/assets/bdab8ddc-3f01-44e0-9daa-f6798d803f2c)
+
+Run the following command to crack a password:
+```
+sudo aircrack-ng -w correct_password my_wifi_captured-01.cap
+```
+
+If aircrack found a valid password, it will return the output like this.
+
+![image](https://github.com/user-attachments/assets/ea2d76a5-fe4c-42fa-b870-8d074e54486c)
+
+An actual attacker can use this to get into your network and hack their way to your computer!
+
 
 
 **References:**
