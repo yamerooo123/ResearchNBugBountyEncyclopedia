@@ -77,6 +77,20 @@ If aircrack found a valid password, it will return the output like this.
 
 An actual attacker can use this to get into your network and hack their way to your computer!
 
+**Mitigation:**
+
+**Upgrade to WPA3 Where Possible:** The WPA3 protocol provides noticeable security benefits over WPA/WPA2, including stronger encryption, forward secrecy and individualised encryption which mitigates the traditional WPA/WPA2 hash capture and cracking techniques. WPA is deprecated and so WPA2 should be used where WPA3 is not an option.
+
+**Use Strong & Complex Passwords:** Where the WPA2 protocol must be used, ensure that the pre-shared key/WiFi password is strong and not easily guessable. The simpler the password is, the faster it will be cracked if a hash is obtained. Avoid using common words and instead opt for more complex phrases with a mixture of different character types.
+
+**Recalibrate Signal Strength:** Consider limiting the wireless signal range to only the area practically required. This will make it more difficult for threat actors to pick up a signal from outside the building/premises.
+
+**Use a Strong Encryption Algorithm:** Where using WPA2, ensure that the settings use the stronger AES encryption rather than TKIP.
+
+**Disable SSID Broadcasting:** Hide the SSID (wireless network name) by disabling SSID broadcasting. This will make the network less visible to casual threat actors and increase the difficulty for exploitation.
+
+**Use MAC Address Filtering**: Consider using MAC address filtering to allow only approved devices to be able to connect to the organisation network. Although the MAC address of a device can be spoofed, it makes the process of connecting to the wireless network more difficult for a threat actor.
+
 
 
 **References:**
