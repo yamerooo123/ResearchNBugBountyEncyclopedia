@@ -31,7 +31,9 @@ Airdump shows us nearby access points and the name of WiFi. This indicates that 
 
 **Experimentation**
 ---
-Deauthentation (AKA. DeAuth attack) is DoS attack that disconnect users in the network. It happens when rouge access point (our evil wifi) send deauthentication frame to the victim access point, making them unable to use WiFi.
+Deauthentation (AKA. DeAuth attack) 
+---
+is DoS attack that disconnect users in the network. It happens when rouge access point (our evil wifi) send deauthentication frame to the victim access point, making them unable to use WiFi.
 
 **Example**
 
@@ -53,3 +55,13 @@ The result is i was not able to connect to my WiFi.
 
 **WiFi automatically switched to available WiFi:**
 ![image](https://github.com/user-attachments/assets/b5cd14e0-a754-478f-a150-470707451967)
+
+WiFi Password Cracking
+---
+We can use **.cap** files which we obtained when our rogue access point went wild. We can use Hashcat to crack password!
+
+
+**References:**
+---
+https://predatech.co.uk/capturing-and-cracking-wpa-wpa2-wifi-passwords/
+https://github.com/ricardojoserf/wifi-pentesting-guide
