@@ -3,7 +3,7 @@
 If you know you know.
 
 **Special thanks to dub-flow source: https://github.com/dub-flow/github-dorks/tree/main**
-
+```
 PHP XSS: /\becho\b.*\$_GET\b/ or /echo\s+\$_REQUEST/
 
 PHP XSS: /^.*\becho\s+\$_GET\b.*$/
@@ -21,6 +21,12 @@ Host Header Injection (Node.js & PHP): req.headers.host path:*pass* and /\$_SERV
 Host Header Injection generic: host path:**/*forgot*/**
 
 Insecure Deserialization in PHP: /(unserialize\()(.*\$_POST|.*\$_GET|.*\$_REQUEST)/
+```
+**Useful Query**
+
+```
+"eval(" OR "exec(" OR "os.system(" OR "subprocess.call(" OR "subprocess.run(" OR "os.popen(" OR "pickle.load(" OR "os.remove(" OR "os.unlink(" OR "os.rmdir(" OR "shutil.rmtree(" OR "compile(" "open-source" "python"
+```
 
 **CVE Response time**
 
