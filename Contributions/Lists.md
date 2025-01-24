@@ -1,6 +1,6 @@
 **Some might not have references because i contacted vendors through email**
 
-<h1>Operately - RCE and No rate limiting(CVE-2024-48093)</h1>
+<h1>Operately - Arbitary File Upload Leading to Remote Command Execution (CVE-2024-48093)</h1>
 
 (via email)
 
@@ -35,3 +35,7 @@ https://github.com/ever-co/ever-traduora/issues/431
 https://github.com/ever-co/ever-traduora/pull/432
 
 https://github.com/ever-co/ever-traduora/releases/tag/v0.20.1
+
+<h1>InnoShop - Stored Cross-Site Scripting (CVE-2025-xxxx)</h1>
+
+https://github.com/innocommerce/innoshop/issues/115

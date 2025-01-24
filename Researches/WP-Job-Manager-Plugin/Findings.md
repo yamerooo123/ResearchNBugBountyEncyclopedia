@@ -1,6 +1,6 @@
-Researched by: Suphawith Phusanbai (Security Researcher)
+Researched by: Suphawith Phusanbai 
 
-**WP Job Manager Plugin v.2.4.0**
+**WP Job Manager Plugin v.2.4.0 (Not vulnerable i just test it for fun)**
 
 Manage job listings from the WordPress admin panel, and allow users to post jobs directly to your site.
 
