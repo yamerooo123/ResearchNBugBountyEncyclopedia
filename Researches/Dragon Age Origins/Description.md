@@ -15,6 +15,7 @@ PowerUp.ps1 shows that there is a vulnerability in **DAUpdaterSVC** which is a s
 ![image](https://github.com/user-attachments/assets/81c30774-1a05-4148-9ab7-b79aa10a57ac)
 
 Furthermore, by default, the service file allows users to modify the path.
+
 ![image](https://github.com/user-attachments/assets/21b55fc8-6c4b-432b-bc76-403e5150f1b5)
 
 Manual testing found that unprivileged users have Full Access privileges on this service. This misconfiguration is potentially vulnerable to unquoted service path. The attackers can abuse this to gain RCE or privilege escalation.
@@ -26,6 +27,7 @@ In order to exploit, this i crafted .exe file which containing the following com
 ![image](https://github.com/user-attachments/assets/242cfb65-7da7-4b59-87b1-bbe210347dc6)
 
 Then compiled it to .exe file
+
 ![image](https://github.com/user-attachments/assets/caaff9a5-2e9e-4570-937f-b993d6092dbe)
 
 For the last preparation step, move the maliciois file to destination path.
