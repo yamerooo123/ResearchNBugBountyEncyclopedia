@@ -16,7 +16,7 @@ PS C:\Users\PC\Downloads> [IO.Path]::GetExtension('C:\Users\PC\Documents\My Game
 
 As you can see, the content of the file is binary.
 
-4. After some research, i discover the ".ess" file is The Elder Scrolls Saved Game (.ess). 
+4. After some research, i discovered the ".ess" file is The Elder Scrolls Saved Game (.ess). 
 ---
 ```
 Source: https://gist.github.com/felipepodesta/e87252275b437133d2f0
