@@ -18,6 +18,29 @@ As you can see, the content of the file is binary.
 
 4. After some research, i discovered the ".ess" file is The Elder Scrolls Saved Game (.ess). 
 ---
+
+**.ess file extension:**
+
 ```
 Source: https://gist.github.com/felipepodesta/e87252275b437133d2f0
 ```
+
+A little more research helped me understand that the save file is basically C++ file.
+
+```
+Source: https://www.reddit.com/r/learnprogramming/comments/1fnsy9/how_do_games_like_skyrim_handle_saves/
+```
+**C++ variables and clarification:**
+
+```
+Source: https://en.uesp.net/wiki/Skyrim_Mod:Save_File_Format
+```
+
+Next, what i am thinking right now is to find a compiler to see the content of the file.
+
+
+
+next, what i am thinking right now is to find a compiler so that I can see what the file actually looks like.
+
+
+
