@@ -1,4 +1,4 @@
-Text Injection
+Text Injection/Content Spoffing
 ---
 
 1. Visit a NASA Subdomain: Start by visiting a subdomain, for example, https://example.nasa.gov.
