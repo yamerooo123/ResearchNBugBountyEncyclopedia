@@ -1,4 +1,4 @@
-Bug - LFI
+LFI (Local File Inclusion)
 ---
 
 1. Fetch historical urls through waymore
