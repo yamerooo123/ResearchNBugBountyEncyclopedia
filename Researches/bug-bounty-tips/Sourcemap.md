@@ -16,7 +16,7 @@ go install github.com/denandz/sourcemapper@latest
 3. Extract content
 
 ```
-sourcemapper -url https://ecsinfo.gsfc.nasa.gov/projects/CASSIOPEIA/repos/cassiopeiaapi/raw/node_modules/swagger-ui-dist/swagger-ui-bundle.js.map -output srcmapper_output
+sourcemapper -url https://example/minified.js.map -output srcmapper_output
 ```
 
 4. Open the folder in VSCode and look for apikeys, creds, secrets and internal API endpoints. 
